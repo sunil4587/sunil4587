@@ -1,0 +1,263 @@
+2021-08-04T05:27:48+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-04T05:27:48+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-04T05:27:48+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-04T05:45:46+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:45:48+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:45:49+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:45:56+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:46:06+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:46:20+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:46:32+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:46:38+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:47:25+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:47:28+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:47:46+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:47:51+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:48:05+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:48:15+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:48:33+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:50:19+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:50:34+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:52:19+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:52:35+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:54:10+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:54:18+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T05:54:36+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 436
+
+2021-08-04T09:41:32+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:36+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:38+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:40+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:42+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:41:45+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:42:07+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:43:21+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:43:23+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:43:25+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:43:56+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:43:57+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:44:47+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:45:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 5, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 6500, 5, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 6500, 5, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9519, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T09:47:10+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 5, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 6500, 5, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 6500, 5, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9519, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T11:34:49+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T11:34:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:190
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php(385): myCredCheckoutMofication->isNewProductInRangeOfUser(0, 2, 0)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): myCredCheckoutMofication->limitMaximumLimitOfTheBudget(true, 5595, 2, 0, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters(true, Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(378): apply_filters('woocommerce_add...', true, 5595, 2, 0, Array, Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php(96): WC_Cart_Session->populate_cart_from_order(9537, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WC_Cart_Session->get_ca in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 190
+
+2021-08-04T11:52:11+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-04T13:13:14+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 152
+
+2021-08-04T13:13:15+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 152
+
+2021-08-04T13:13:21+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 152
+

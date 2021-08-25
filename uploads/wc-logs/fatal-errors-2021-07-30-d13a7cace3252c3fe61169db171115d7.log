@@ -1,0 +1,197 @@
+2021-07-30T08:17:39+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 75
+
+2021-07-30T08:17:41+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 75
+
+2021-07-30T08:27:54+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:43
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 43
+
+2021-07-30T08:28:27+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:43
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 43
+
+2021-07-30T08:28:48+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:43
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 43
+
+2021-07-30T08:29:20+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:42
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 42
+
+2021-07-30T08:42:45+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted_order_subtotal() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 / in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T08:43:07+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_order_subtotal() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybu in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T08:43:11+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_order_subtotal() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybu in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T08:46:50+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted_subtotal() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/b in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T08:47:50+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted_order_subtotal() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 / in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T08:48:09+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted_order_discount() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 / in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 78
+
+2021-07-30T09:07:01+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_formatted() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/p in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 69
+
+2021-07-30T09:07:22+00:00 CRITICAL Uncaught Error: Call to undefined function get_formatted() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327 in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 69
+
+2021-07-30T09:07:25+00:00 CRITICAL Uncaught Error: Call to undefined function get_formatted() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3127): wc_get_template('myaccount/order...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_orders(1)
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327 in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/myaccount/orders.php on line 69
+
+2021-07-30T10:30:42+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-07-30T12:07:39+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-07-30T12:39:57+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-07-30T13:32:24+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-cron.php(44): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+

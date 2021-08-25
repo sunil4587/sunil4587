@@ -1,0 +1,584 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */
+.section-hidden{
+  display:none;
+}
+.logged-in .section-hidden{
+  display:block;
+}
+.ids-custom-swal .swal-icon--info,
+.ids-custom-swal .swal-icon--info:after, 
+.ids-custom-swal .swal-icon--info:before{
+    border-color: #fff;
+}
+.ids-custom-swal .swal-button {
+    border: 0px;
+    background-color: #b600f6;
+    padding: 12px 24px;
+}
+/* .ids-custom-swal .swal-icon--info:before {
+    top: 17px;
+}
+.ids-custom-swal .swal-icon--info:after {
+    top: 7px;
+}
+.ids-custom-swal .swal-icon {
+  width: 50px;
+  height: 50px;
+} */
+.ids-custom-swal .swal-button:focus {
+    outline: none;
+    box-shadow:none;
+}
+.ids-custom-swal .swal-icon--success:after, 
+.ids-custom-swal .swal-icon--success:before,
+.ids-custom-swal .swal-icon--success__hide-corners{
+    background:transparent; 
+
+}
+.ids-custom-swal .swal-icon--success__ring {
+  border: 4px solid #fff;
+}
+.ids-custom-swal .swal-icon--info:after, 
+.ids-custom-swal .swal-icon--info:before{
+  background-color: #fff;
+}
+.ids-custom-swal .swal-button:hover{
+   background-color: #b600f6;
+   color:#fff;
+}
+.ids-custom-swal .swal-button--cancel {
+    background-color: #F3F3F3;
+    border: 0px;
+   	padding: 12px 24px;
+}
+.ids-custom-swal .swal-button--cancel:hover{
+  background-color: #F3F3F3;
+  color:#555;
+}
+.ids-custom-swal .swal-footer {
+  text-align: center;
+}
+.ids-custom-swal .swal-icon--success__line{
+  background:#ffffff;
+}
+.swal-modal.ids-custom-swal {
+    background-image: url(https://buybulkshrooms.com/wp-content/uploads/2021/03/testimonial-bg.jpg);
+    border-radius: 0px;
+}
+.ids-custom-swal .swal-title {
+    font-size: 42px;
+    color: #fff;
+}
+.ids-custom-swal .swal-text {
+    color: #ffffffcc;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+.mycred_my_account{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.loop.mycred_default {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+body .mycred_tab_coloum.ranks .mycred-my-rank, 
+body .mycred_my_account .mylevel {
+    line-height: 99px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3f3f3f;
+}
+body .mycred_my_account .mylevel{
+  font-size:30px;
+}
+body span.level_alphabet {
+    font-size: 14px;
+}
+body .mycred_points_lable {
+    width: auto;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+body .mycred_my_account .myranks img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 50px;
+    border: 0px;
+}
+.custom-price h1 {
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+    text-transform: uppercase;
+}
+.custom-rank .mycred-my-rank {
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+}
+.custom-list2.green-c h4{
+  background:#7af355;
+}
+.custom-list2.light-green-c h4{
+  background:#9ff355;
+}
+.custom-list2.light-yellow-c h4{
+  background:#f3f155;
+}
+.custom-list2.yellow-c h4{
+  background:#f3d355;
+}
+.custom-list2.light-red-c h4{
+  background:#f39855;
+}
+.custom-list2.red-c h4{
+  background:#f35555;
+}
+.custom-list2 {
+    background: #7C7EFF;
+    border-radius: 150px;
+    border-top-left-radius: 126px;
+    border-top-right-radius: 126px;
+    border: 2px solid #000;
+}
+.custom-list2 ul {
+    padding: 0px 16px 68px 16px;
+}
+.custom-list2 h4 {
+    text-align: center;
+    font-weight: 100;
+    font-family: "wedges", Sans-serif;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    line-height: 100px;
+}
+.custom-height {
+    height: 150px;
+}
+.custom-list2 ul li {
+    color: #000;
+    text-align: center;
+    line-height: 26px;
+    font-family: "wedges", Sans-serif;
+    border-bottom: 4px solid #ff9c00;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.footer-sidebar .footer-column-2 {
+    text-align: right;
+}
+.color-scheme-light .widget{
+  border:0px;
+  margin-bottom: 0px;
+}
+body #menu-custom-menu-1 a {
+    color: rgb(255 255 255);
+    font-family: "wedges", Sans-serif !important;
+}
+body .site-content {
+    margin-bottom:0px;
+}
+body.woodmart-archive-shop .site-content {
+    margin-bottom: 40px;
+}
+.variations li:nth-child(2),
+.variations tr:nth-child(2){
+    display: none;
+}
+.page-title.color-scheme-light .entry-title {
+    font-family: "wedges", Sans-serif !important;
+    font-weight: 100;
+}
+.text-editor .elementor-widget:not(:last-child) {
+    margin-bottom: 6px;
+}
+.whb-color-dark .navigation-style-default .item-level-0.custom-menu>a {
+    color: #B600F6;
+    font-family: "wedges", Sans-serif !important;
+    font-size: 22px;
+    font-weight: 100;
+}
+.whb-color-dark .navigation-style-default .item-level-0.custom-menu.custom-menu-b>a{
+  background: #ff00ac;
+  color: #fff !important;
+  border-radius: 5px;
+}
+
+.custom-paddinig-0 .elementor-element-populated {
+    padding-bottom: 0px !important;
+}
+.custom-height .elementor-col-50.left-img{
+   position: absolute;
+    bottom: -161px;
+    left: 43px;
+    height: 211px;
+}
+.custom-height .elementor-col-50.right-img{
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    height: 236px;
+}
+.box-slider .owl-stage {
+    display: table;
+    width: 100%;
+}
+/* .page-id-3588 header,
+.page-id-3443 header{
+    display: none;
+} */
+.box-slider .info-box-title {
+  width: 100%;
+  font-family: "wedges", Sans-serif !important;
+}
+.custom-img img {
+    width: auto;
+    max-width: initial;
+}
+.owl-nav>div[class*=prev]:after,
+.owl-nav>div[class*=next]:after{
+  color:#9ef900;
+  font-weight:bold;
+}
+.box-slider .box-style-border.box-icon-align-top .info-box-content:hover {
+    background: #9ef900;
+}
+.box-slider .owl-item {
+    display: table-cell;
+    padding: 16px;
+    height: 200px;
+}
+.box-slider .info-box-wrapper {
+    height: 100%;
+}
+.box-slider .woodmart-info-box {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 100%;
+}
+.box-slider .box-style-border.box-icon-align-top .info-box-content {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 1px 7px 0px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.ids-testimonial .testimonial .testimonial-avatar img {
+    border: 2px solid #b900f6;
+    border-radius: 50%;
+}
+.ids-testimonial .testimonial-avatar:before {
+    content: "ddd";
+    background: url(/wp-content/uploads/2021/03/quote.png);
+    background-size: 100%;
+    position: absolute;
+    color: transparent;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.custom-header i.fas.fa-search {
+    background-color: transparent;
+    color: #b600f6;
+}
+body {
+     overflow-x:hidden;
+} 
+.elementor-shape-bottom,
+.elementor-shape-top{
+     bottom: -1px;
+     animation: wave 22s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+     width: 210%;
+ } 
+@keyframes wave {
+   0% {
+     margin-left: 0;
+   }
+     50% {
+     margin-left: -1600px;
+   }
+   100% {
+     margin-left: 0px;
+   }
+ }  
+.custom-list span.list-content,
+.custom-list-r span.list-content{
+    font-family: "wedges", Sans-serif;
+    color: #4e0f65;
+  	font-size:32px;
+}
+.custom-list .woodmart-list .list-icon,
+.custom-list-r .woodmart-list .list-icon{
+transform: scale(1.2);
+    animation-name: elementor-animation-pulse-shrink;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.custom-list li:hover .list-icon,
+.custom-list-r li:hover .list-icon{
+    transform: scale(1.2);
+    animation-name: elementor-animation-pulse-shrink;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.custom-list-r span.list-content{
+  color: #fff;
+}
+.ids-stroke h1{
+  -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #4e0f65;
+}
+.ids-stroke-gold h1{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #7b710e;
+}
+.ids-stroke-red h1{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff00ac;
+}
+.ids-stroke-green h1{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #B600F6;
+}
+.ids-testimonial .testimon-style-boxed .testimonial-inner {
+    background: #45b4c7;
+    color: #fff;
+    border-radius: 50px;
+  	font-family: "Poppins", Sans-serif;
+}
+.ids-testimonial .testimonial .testimonial-content footer span {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+.ids-testimonial .testimonial .testimonial-content footer {
+    color: #fff;
+}
+ .ids-animation{
+  animation: animation 100s linear infinite;
+   animation-name: backgroundloop;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+.ids-animation .elementor-motion-effects-layer{
+  animation-name:backgroundloop;
+  animation-iteration-count:infinite;
+  animation-duration:10s;
+  animation-timing-function:linear;
+  overflow:hidden;
+  background-repeat:repeat-y;
+  background-position:0 0;
+}
+@-webkit-keyframes zoomeffect{
+		0%{
+			background-position:center;
+		  transform:scale(1,1);
+		}
+		50%{
+			background-position:center;
+		  transform:scale(2,2);
+		}
+		100%{
+			background-position:center;
+		  transform:scale(1,1);
+		}
+}
+@keyframes zoomeffect{
+		0%{
+			background-position:center;
+		  transform:scale(1,1);
+		}
+		50%{
+			background-position:center;
+		  transform:scale(2,2);
+		}
+		100%{
+			background-position:center;
+		  transform:scale(1,1);
+		}
+}
+@keyframes backgroundloop {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position:0 -500px;
+  }
+}
+.ids-testimonial2 .elementor-testimonial__footer {
+    width: 50%;
+}
+.elementor-3588 .ids-testimonial2 .elementor-element.elementor-element-4e44a79 .elementor-testimonial__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4em;
+}
+.ids-testimonial2 h1 {
+    color: #FFFFFF;
+    font-family: "wedges", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.ids-testimonial2 .elementor-testimonial__text,
+.ids-testimonial2 .elementor-testimonial__cite{
+  font-family: "Poppins", Sans-serif;
+  color: #fff;align-content;
+  text-align:left;
+}
+.ids-testimonial2 span.elementor-testimonial__title {
+    display: none;
+}
+.ids-testimonial2 .elementor-testimonial {
+    align-items: center;
+}
+.ids-testimonial2 h1:after{
+    content: "dsd";
+    background: url(/wp-content/uploads/2021/03/star-icon.png);
+    background-size: 73%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+  	animation: rotation 8s infinite linear;
+   display: inline-block;
+}
+.ids-custom-star span:after{
+  	background: url(/wp-content/uploads/2021/03/star.png);
+  	content: "dsd";
+    background-size: 89%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+   animation: rotation 8s infinite linear;
+   display: inline-block;
+}
+.ids-custom-star span:before{
+  	background: url(/wp-content/uploads/2021/03/star.png);
+  	content: "dsd";
+    background-size: 89%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    animation: rotation 8s infinite linear;
+    display: inline-block;
+}
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -9em);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.wd-tools-element .wd-tools-icon {
+    color: #b600f6;
+}
+.custom-animation-t .elementor-background-overlay {
+  animation: sparkle 60s linear infinite;
+}
+/*product page css*/
+.product_title.entry-title,
+.tabs-layout-tabs .tabs li a,
+.widget_product_categories .widget-title,
+.widget-title,
+.woocommerce-billing-fields h3,
+#order_review_heading{
+  font-family: "wedges", Sans-serif !important;
+  color: #B600F6;
+  font-weight:100;
+}
+/* button.button,
+input#submit{
+    background: #ff00ac;
+    font-family: "wedges", Sans-serif !important;
+    font-weight:100;
+    color: #fff !important;
+} */
+
+body .woocommerce-info,
+body .thc,
+body .woocommerce-error,
+body .elementor-button{
+   background: #B600F6;
+}
+
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--my-coupons a:before,
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--my-rank a:before {
+    display:none;
+}
+@media screen and (max-width:1048px){
+  body .mycred_my_account {
+    display: initial;
+	}
+}
+@media screen and (max-width:980px){
+  body .ids-3col .elementor-element .elementor-heading-title {
+    font-size: 20px !important;
+	}
+  .custom-list span.list-content, .custom-list-r span.list-content{
+    font-size: 20px;
+	}
+}
+@media screen and (max-width:767px){
+  .ids-testimonial2 .elementor-testimonial__text, 
+  .ids-testimonial2 .elementor-testimonial__cite {
+    font-size: 10px;
+}
+  .ids-testimonial2 h1 {
+    font-size:18px;
+  }
+  .div-center .elementor-text-editor {
+    text-align: center;
+	}
+  aside.footer-sidebar,
+  .footer-sidebar .footer-column-2{
+    text-align: center;
+}
+}
+
+@media screen and (max-width:575px){
+  body .mycred_my_account, 
+  body .mycred_tab_coloum {
+    width: 96% !important;
+	}
+}</style>
+<!-- end Simple Custom CSS and JS -->

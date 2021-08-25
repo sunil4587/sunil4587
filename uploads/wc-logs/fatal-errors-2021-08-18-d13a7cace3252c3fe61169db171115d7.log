@@ -1,0 +1,54 @@
+2021-08-18T06:06:44+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1150
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1150
+
+2021-08-18T07:32:35+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+
+2021-08-18T07:37:36+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+
+2021-08-18T07:42:36+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+
+2021-08-18T07:47:36+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+
+2021-08-18T08:01:49+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+
+2021-08-18T08:02:59+00:00 CRITICAL Uncaught Error: Call to undefined function WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\dokan_override_author_for_variations() in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php:76
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php(29): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->update_product_attribute_author(1)
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(301): WeDevs\Dokan\Upgrade\Upgrades\BackgroundProcesses\V_3_0_10_ProductAttributesAuthorId->task(Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php(447): WP_Background_Process->handle()
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WP_Background_Process->handle_cron_healt in /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Upgrade/Upgrades/BackgroundProcesses/V_3_0_10_ProductAttributesAuthorId.php on line 76
+

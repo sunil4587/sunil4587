@@ -1,0 +1,184 @@
+2021-08-19T04:59:33+00:00 DEBUG New Order #10921 created. Init sub order.
+2021-08-19T04:59:33+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:00:15+00:00 DEBUG New Order #10922 created. Init sub order.
+2021-08-19T05:00:15+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:00:44+00:00 DEBUG New Order #10923 created. Init sub order.
+2021-08-19T05:00:44+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:02:04+00:00 DEBUG New Order #10924 created. Init sub order.
+2021-08-19T05:02:04+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:05:32+00:00 DEBUG New Order #10925 created. Init sub order.
+2021-08-19T05:05:32+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:06:09+00:00 DEBUG New Order #10925 created. Init sub order.
+2021-08-19T05:06:09+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:06:47+00:00 DEBUG New Order #10925 created. Init sub order.
+2021-08-19T05:06:47+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:08:44+00:00 DEBUG New Order #10926 created. Init sub order.
+2021-08-19T05:08:44+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:11:00+00:00 DEBUG New Order #10927 created. Init sub order.
+2021-08-19T05:11:00+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:17:19+00:00 DEBUG New Order #10928 created. Init sub order.
+2021-08-19T05:17:19+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:50:26+00:00 DEBUG New Order #10928 created. Init sub order.
+2021-08-19T05:50:26+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:50:55+00:00 DEBUG New Order #10928 created. Init sub order.
+2021-08-19T05:50:55+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:52:48+00:00 DEBUG New Order #10929 created. Init sub order.
+2021-08-19T05:52:48+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T05:57:13+00:00 DEBUG New Order #10930 created. Init sub order.
+2021-08-19T05:57:13+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:03:15+00:00 DEBUG New Order #10931 created. Init sub order.
+2021-08-19T06:03:15+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:10:16+00:00 DEBUG New Order #10932 created. Init sub order.
+2021-08-19T06:10:16+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:11:57+00:00 DEBUG New Order #10932 created. Init sub order.
+2021-08-19T06:11:57+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:25:08+00:00 DEBUG New Order #10933 created. Init sub order.
+2021-08-19T06:25:08+00:00 DEBUG Got 2 vendors, starting sub order.
+2021-08-19T06:25:08+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T06:25:08+00:00 DEBUG #10934 - Creating Shipping.
+2021-08-19T06:25:08+00:00 DEBUG #10934 - No shipping method found. Aborting.
+2021-08-19T06:25:08+00:00 DEBUG Created sub order : #10934
+2021-08-19T06:25:08+00:00 DEBUG Creating sub order for vendor: #147
+2021-08-19T06:25:08+00:00 DEBUG #10935 - Creating Shipping.
+2021-08-19T06:25:08+00:00 DEBUG #10935 - No shipping method found. Aborting.
+2021-08-19T06:25:08+00:00 DEBUG Created sub order : #10935
+2021-08-19T06:25:08+00:00 DEBUG Completed sub order for #10933.
+2021-08-19T06:42:25+00:00 DEBUG New Order #10934 created. Init sub order.
+2021-08-19T06:42:25+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:42:26+00:00 DEBUG New Order #10935 created. Init sub order.
+2021-08-19T06:42:26+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T06:54:36+00:00 DEBUG New Order #10939 created. Init sub order.
+2021-08-19T06:54:36+00:00 DEBUG Got 2 vendors, starting sub order.
+2021-08-19T06:54:36+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T06:54:36+00:00 DEBUG #10940 - Creating Shipping.
+2021-08-19T06:54:36+00:00 DEBUG #10940 - No shipping method found. Aborting.
+2021-08-19T06:54:36+00:00 DEBUG Created sub order : #10940
+2021-08-19T06:54:36+00:00 DEBUG Creating sub order for vendor: #3
+2021-08-19T06:54:36+00:00 DEBUG #10941 - Creating Shipping.
+2021-08-19T06:54:36+00:00 DEBUG #10941 - No shipping method found. Aborting.
+2021-08-19T06:54:37+00:00 DEBUG Created sub order : #10941
+2021-08-19T06:54:37+00:00 DEBUG Completed sub order for #10939.
+2021-08-19T07:16:18+00:00 DEBUG New Order #10942 created. Init sub order.
+2021-08-19T07:16:18+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T10:22:36+00:00 DEBUG New Order #10947 created. Init sub order.
+2021-08-19T10:22:36+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T10:35:56+00:00 DEBUG New Order #10949 created. Init sub order.
+2021-08-19T10:35:56+00:00 DEBUG Got 3 vendors, starting sub order.
+2021-08-19T10:35:56+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T10:35:56+00:00 DEBUG #10950 - Creating Shipping.
+2021-08-19T10:35:56+00:00 DEBUG #10950 - Adding shipping item.
+2021-08-19T10:35:56+00:00 DEBUG Created sub order : #10950
+2021-08-19T10:35:56+00:00 DEBUG Creating sub order for vendor: #3
+2021-08-19T10:35:56+00:00 DEBUG #10951 - Creating Shipping.
+2021-08-19T10:35:56+00:00 DEBUG #10951 - Adding shipping item.
+2021-08-19T10:35:56+00:00 DEBUG Created sub order : #10951
+2021-08-19T10:35:56+00:00 DEBUG Creating sub order for vendor: #147
+2021-08-19T10:35:56+00:00 DEBUG #10952 - Creating Shipping.
+2021-08-19T10:35:56+00:00 DEBUG #10952 - Adding shipping item.
+2021-08-19T10:35:56+00:00 DEBUG Created sub order : #10952
+2021-08-19T10:35:56+00:00 DEBUG Completed sub order for #10949.
+2021-08-19T10:56:12+00:00 DEBUG New Order #10962 created. Init sub order.
+2021-08-19T10:56:12+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T10:56:35+00:00 DEBUG New Order #10962 created. Init sub order.
+2021-08-19T10:56:35+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T10:56:40+00:00 DEBUG New Order #10962 created. Init sub order.
+2021-08-19T10:56:40+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:29+00:00 DEBUG New Order #10920 created. Init sub order.
+2021-08-19T11:23:29+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:30+00:00 DEBUG New Order #10921 created. Init sub order.
+2021-08-19T11:23:30+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:30+00:00 DEBUG New Order #10922 created. Init sub order.
+2021-08-19T11:23:30+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:31+00:00 DEBUG New Order #10923 created. Init sub order.
+2021-08-19T11:23:31+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:32+00:00 DEBUG New Order #10924 created. Init sub order.
+2021-08-19T11:23:32+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:32+00:00 DEBUG New Order #10925 created. Init sub order.
+2021-08-19T11:23:32+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:33+00:00 DEBUG New Order #10926 created. Init sub order.
+2021-08-19T11:23:33+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:33+00:00 DEBUG New Order #10927 created. Init sub order.
+2021-08-19T11:23:33+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:34+00:00 DEBUG New Order #10928 created. Init sub order.
+2021-08-19T11:23:34+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:35+00:00 DEBUG New Order #10929 created. Init sub order.
+2021-08-19T11:23:35+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:35+00:00 DEBUG New Order #10930 created. Init sub order.
+2021-08-19T11:23:35+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:36+00:00 DEBUG New Order #10931 created. Init sub order.
+2021-08-19T11:23:36+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:36+00:00 DEBUG New Order #10932 created. Init sub order.
+2021-08-19T11:23:36+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:37+00:00 DEBUG New Order #10940 created. Init sub order.
+2021-08-19T11:23:37+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:38+00:00 DEBUG New Order #10941 created. Init sub order.
+2021-08-19T11:23:38+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:39+00:00 DEBUG New Order #10942 created. Init sub order.
+2021-08-19T11:23:39+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:39+00:00 DEBUG New Order #10947 created. Init sub order.
+2021-08-19T11:23:39+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:40+00:00 DEBUG New Order #10950 created. Init sub order.
+2021-08-19T11:23:40+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:40+00:00 DEBUG New Order #10951 created. Init sub order.
+2021-08-19T11:23:40+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:23:41+00:00 DEBUG New Order #10952 created. Init sub order.
+2021-08-19T11:23:41+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:52:47+00:00 DEBUG New Order #10987 created. Init sub order.
+2021-08-19T11:52:47+00:00 DEBUG Got 2 vendors, starting sub order.
+2021-08-19T11:52:47+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T11:52:47+00:00 DEBUG #10988 - Creating Shipping.
+2021-08-19T11:52:47+00:00 DEBUG #10988 - No shipping method found. Aborting.
+2021-08-19T11:52:47+00:00 DEBUG Created sub order : #10988
+2021-08-19T11:52:47+00:00 DEBUG Creating sub order for vendor: #147
+2021-08-19T11:52:47+00:00 DEBUG #10989 - Creating Shipping.
+2021-08-19T11:52:47+00:00 DEBUG #10989 - No shipping method found. Aborting.
+2021-08-19T11:52:47+00:00 DEBUG Created sub order : #10989
+2021-08-19T11:52:47+00:00 DEBUG Completed sub order for #10987.
+2021-08-19T11:55:58+00:00 DEBUG New Order #10989 created. Init sub order.
+2021-08-19T11:55:58+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:56:04+00:00 DEBUG New Order #10989 created. Init sub order.
+2021-08-19T11:56:04+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T11:58:33+00:00 DEBUG New Order #10988 created. Init sub order.
+2021-08-19T11:58:33+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T12:07:38+00:00 DEBUG New Order #10993 created. Init sub order.
+2021-08-19T12:07:38+00:00 DEBUG Got 3 vendors, starting sub order.
+2021-08-19T12:07:38+00:00 DEBUG Creating sub order for vendor: #147
+2021-08-19T12:07:38+00:00 DEBUG #10994 - Creating Shipping.
+2021-08-19T12:07:38+00:00 DEBUG #10994 - No shipping method found. Aborting.
+2021-08-19T12:07:38+00:00 DEBUG Created sub order : #10994
+2021-08-19T12:07:38+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T12:07:38+00:00 DEBUG #10995 - Creating Shipping.
+2021-08-19T12:07:38+00:00 DEBUG #10995 - No shipping method found. Aborting.
+2021-08-19T12:07:38+00:00 DEBUG Created sub order : #10995
+2021-08-19T12:07:38+00:00 DEBUG Creating sub order for vendor: #152
+2021-08-19T12:07:38+00:00 DEBUG #10996 - Creating Shipping.
+2021-08-19T12:07:38+00:00 DEBUG #10996 - No shipping method found. Aborting.
+2021-08-19T12:07:39+00:00 DEBUG Created sub order : #10996
+2021-08-19T12:07:39+00:00 DEBUG Completed sub order for #10993.
+2021-08-19T12:27:47+00:00 DEBUG New Order #10998 created. Init sub order.
+2021-08-19T12:27:47+00:00 DEBUG Got 3 vendors, starting sub order.
+2021-08-19T12:27:47+00:00 DEBUG Creating sub order for vendor: #1
+2021-08-19T12:27:47+00:00 DEBUG #10999 - Creating Shipping.
+2021-08-19T12:27:47+00:00 DEBUG #10999 - No shipping method found. Aborting.
+2021-08-19T12:27:47+00:00 DEBUG Created sub order : #10999
+2021-08-19T12:27:47+00:00 DEBUG Creating sub order for vendor: #147
+2021-08-19T12:27:47+00:00 DEBUG #11000 - Creating Shipping.
+2021-08-19T12:27:47+00:00 DEBUG #11000 - No shipping method found. Aborting.
+2021-08-19T12:27:48+00:00 DEBUG Created sub order : #11000
+2021-08-19T12:27:48+00:00 DEBUG Creating sub order for vendor: #152
+2021-08-19T12:27:48+00:00 DEBUG #11001 - Creating Shipping.
+2021-08-19T12:27:48+00:00 DEBUG #11001 - No shipping method found. Aborting.
+2021-08-19T12:27:48+00:00 DEBUG Created sub order : #11001
+2021-08-19T12:27:48+00:00 DEBUG Completed sub order for #10998.
+2021-08-19T13:19:26+00:00 DEBUG New Order #10994 created. Init sub order.
+2021-08-19T13:19:26+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T13:19:26+00:00 DEBUG New Order #10995 created. Init sub order.
+2021-08-19T13:19:26+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T13:19:27+00:00 DEBUG New Order #10996 created. Init sub order.
+2021-08-19T13:19:27+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T13:19:28+00:00 DEBUG New Order #11001 created. Init sub order.
+2021-08-19T13:19:28+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T13:19:28+00:00 DEBUG New Order #10999 created. Init sub order.
+2021-08-19T13:19:28+00:00 DEBUG 1 vendor only, skipping sub order.
+2021-08-19T13:19:28+00:00 DEBUG New Order #11000 created. Init sub order.
+2021-08-19T13:19:28+00:00 DEBUG 1 vendor only, skipping sub order.

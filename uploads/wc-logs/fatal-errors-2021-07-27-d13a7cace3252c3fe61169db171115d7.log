@@ -1,0 +1,143 @@
+2021-07-27T08:20:11+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showsPointsBalaceAfterOrderplaced('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(102): do_action('woocommerce_car...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2061): wc_get_template('cart/cart-total...')
+#6 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(169): woocommerce_cart_totals()
+#7 /h in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 78
+
+2021-07-27T08:20:13+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showsPointsBalaceAfterOrderplaced('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(102): do_action('woocommerce_car...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2061): wc_get_template('cart/cart-total...')
+#6 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(169): woocommerce_cart_totals()
+#7 /h in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 78
+
+2021-07-27T08:21:58+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showsPointsBalaceAfterOrderplaced('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(102): do_action('woocommerce_car...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2061): wc_get_template('cart/cart-total...')
+#6 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(169): woocommerce_cart_totals()
+#7 /h in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 78
+
+2021-07-27T08:21:58+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showsPointsBalaceAfterOrderplaced('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(102): do_action('woocommerce_car...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2061): wc_get_template('cart/cart-total...')
+#6 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(169): woocommerce_cart_totals()
+#7 /h in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 78
+
+2021-07-27T08:22:01+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:78
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showsPointsBalaceAfterOrderplaced('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/cart/cart-totals.php(102): do_action('woocommerce_car...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2061): wc_get_template('cart/cart-total...')
+#6 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(169): woocommerce_cart_totals()
+#7 /h in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 78
+
+2021-07-27T09:56:37+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-07-27T10:00:40+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-07-27T10:10:03+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-07-27T11:08:15+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-07-27T11:45:30+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-07-27T12:36:44+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-07-27T13:30:57+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+

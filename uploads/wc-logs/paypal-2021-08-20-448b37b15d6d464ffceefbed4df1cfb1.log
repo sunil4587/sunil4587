@@ -1,0 +1,118 @@
+2021-08-20T06:49:16+00:00 INFO Generating payment form for order 11037. Notify URL: https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+2021-08-20T06:49:16+00:00 INFO PayPal Request Args for order 11037: Array
+(
+    [cmd] => _cart
+    [business] => sb-4g9p87241793@business.example.com
+    [no_note] => 1
+    [currency_code] => CAD
+    [charset] => utf-8
+    [rm] => 2
+    [upload] => 1
+    [return] => https://buybulkshrooms.com/checkout/order-received/11037/?key=wc_order_Wi4EUlt3mzOmS&utm_nooverride=1
+    [cancel_return] => https://buybulkshrooms.com/cart/?cancel_order=true&order=wc_order_Wi4EUlt3mzOmS&order_id=11037&redirect&_wpnonce=ba7a2977c1
+    [image_url] => https://buybulkshrooms.com/wp-content/uploads/2021/08/logo-buy-e1629368967360.png
+    [paymentaction] => authorization
+    [invoice] => WC-11037
+    [custom] => {"order_id":11037,"order_key":"wc_order_Wi4EUlt3mzOmS"}
+    [notify_url] => https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_a] => ***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => cbd-Creamy-fuss-peeling
+    [quantity_1] => 1
+    [amount_1] => 240
+    [item_number_1] => 
+    [bn] => WooThemes_Cart
+)
+
+2021-08-20T06:53:21+00:00 INFO Generating payment form for order 11037. Notify URL: https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+2021-08-20T06:53:21+00:00 INFO PayPal Request Args for order 11037: Array
+(
+    [cmd] => _cart
+    [business] => sb-4g9p87241793@business.example.com
+    [no_note] => 1
+    [currency_code] => CAD
+    [charset] => utf-8
+    [rm] => 2
+    [upload] => 1
+    [return] => https://buybulkshrooms.com/checkout/order-received/11037/?key=wc_order_Wi4EUlt3mzOmS&utm_nooverride=1
+    [cancel_return] => https://buybulkshrooms.com/cart/?cancel_order=true&order=wc_order_Wi4EUlt3mzOmS&order_id=11037&redirect&_wpnonce=9b06f33b7e
+    [image_url] => https://buybulkshrooms.com/wp-content/uploads/2021/08/logo-buy-e1629368967360.png
+    [paymentaction] => authorization
+    [invoice] => WC-11037
+    [custom] => {"order_id":11037,"order_key":"wc_order_Wi4EUlt3mzOmS"}
+    [notify_url] => https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_a] => ***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => cbd-Creamy-fuss-peeling
+    [quantity_1] => 1
+    [amount_1] => 240
+    [item_number_1] => 
+    [bn] => WooThemes_Cart
+)
+
+2021-08-20T11:20:53+00:00 INFO Generating payment form for order 11039. Notify URL: https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+2021-08-20T11:20:53+00:00 INFO PayPal Request Args for order 11039: Array
+(
+    [cmd] => _cart
+    [business] => sb-4g9p87241793@business.example.com
+    [no_note] => 1
+    [currency_code] => CAD
+    [charset] => utf-8
+    [rm] => 2
+    [upload] => 1
+    [return] => https://buybulkshrooms.com/checkout/order-received/11039/?key=wc_order_82sUcQUACYACB&utm_nooverride=1
+    [cancel_return] => https://buybulkshrooms.com/cart/?cancel_order=true&order=wc_order_82sUcQUACYACB&order_id=11039&redirect&_wpnonce=7179df5edf
+    [image_url] => https://buybulkshrooms.com/wp-content/uploads/2021/08/logo-buy-e1629368967360.png
+    [paymentaction] => authorization
+    [invoice] => WC-11039
+    [custom] => {"order_id":11039,"order_key":"wc_order_82sUcQUACYACB"}
+    [notify_url] => https://buybulkshrooms.com/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_a] => ***
+    [night_phone_b] => ***
+    [address_override] => 0
+    [no_shipping] => 0
+    [tax_cart] => 0.00
+    [item_name_1] => 5-Meo-DMT(Cartridge) .5mL
+    [quantity_1] => 1
+    [amount_1] => 119
+    [item_number_1] => 
+    [item_name_2] => 920 Cherry Gummy – 1000mg
+    [quantity_2] => 8
+    [amount_2] => 15
+    [item_number_2] => 
+    [bn] => WooThemes_Cart
+)
+

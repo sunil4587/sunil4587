@@ -1,0 +1,134 @@
+2021-08-17T06:47:25+00:00 CRITICAL Uncaught Error: Call to undefined method bbCustomMessage::AddinghookdoubleXPeventAlert() in /home/buybulks/public_html/wp-content/plugins/custom-customization/bb-custom-messages.php:152
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessage->doubleXPeventAlert('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#4 /home/buybulks/public_html/wp-content/themes/woodmart/footer.php(62): wp_footer()
+#5 /home/buybulks/public_html/wp-includes/template.php(770): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-includes/template.php(716): load_template('/home/buybulks/...', true, Array)
+#7 /home/buybulks/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#8 /home/buybulks/public_html/wp-conte in /home/buybulks/public_html/wp-content/plugins/custom-customization/bb-custom-messages.php on line 152
+
+2021-08-17T06:47:36+00:00 CRITICAL Uncaught Error: Call to undefined method bbCustomMessage::AddinghookdoubleXPeventAlert() in /home/buybulks/public_html/wp-content/plugins/custom-customization/bb-custom-messages.php:152
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessage->doubleXPeventAlert('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#4 /home/buybulks/public_html/wp-content/themes/woodmart/footer.php(62): wp_footer()
+#5 /home/buybulks/public_html/wp-includes/template.php(770): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-includes/template.php(716): load_template('/home/buybulks/...', true, Array)
+#7 /home/buybulks/public_html/wp-includes/general-template.php(92): locate_template(Array, true, true, Array)
+#8 /home/buybulks/public_html/wp-conte in /home/buybulks/public_html/wp-content/plugins/custom-customization/bb-custom-messages.php on line 152
+
+2021-08-17T07:34:42+00:00 CRITICAL Uncaught Error: Call to undefined function int() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:54
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showPointBasedTotal('<span class="wo...', Object(Automattic\WooCommerce\Admin\Overrides\Order), '', true)
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('<span class="wo...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-order.php(195): apply_filters('woocommerce_get...', '<span class="wo...', Object(Automattic\WooCommerce\Admin\Overrides\Order), '', true)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/myaccount/orders.php(61): WC_Order->get_formatted_order_total()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/wooco in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 54
+
+2021-08-17T08:13:28+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-08-17T08:13:28+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-08-17T08:37:36+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1141
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-login.php(12): require('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1141
+
+2021-08-17T08:50:14+00:00 CRITICAL Uncaught Error: Class 'myCredCheckoutMofication' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1112
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredCheckoutMofication('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1112
+
+2021-08-17T09:04:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changingPointBaseditemPriceToIntforMiniCart(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:88
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changingPointBaseditemPriceToIntforMiniCart('%2$s&nbsp;%1$s', 'left')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('%2$s&nbsp;%1$s', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(504): apply_filters('woocommerce_pri...', '%1$s%2$s', 'left')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(572): get_woocommerce_price_format()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(19 in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 88
+
+2021-08-17T09:04:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changingPointBaseditemPriceToIntforMiniCart(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:88
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changingPointBaseditemPriceToIntforMiniCart('%2$s&nbsp;%1$s', 'left')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('%2$s&nbsp;%1$s', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(504): apply_filters('woocommerce_pri...', '%1$s%2$s', 'left')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(572): get_woocommerce_price_format()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(19 in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 88
+
+2021-08-17T09:04:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changingPointBaseditemPriceToIntforMiniCart(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:88
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changingPointBaseditemPriceToIntforMiniCart('%2$s&nbsp;%1$s', 'left')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('%2$s&nbsp;%1$s', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(504): apply_filters('woocommerce_pri...', '%1$s%2$s', 'left')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(572): get_woocommerce_price_format()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(19 in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 88
+
+2021-08-17T09:05:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changingPointBaseditemPriceToIntforMiniCart(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:88
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changingPointBaseditemPriceToIntforMiniCart('%2$s&nbsp;%1$s', 'left')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('%2$s&nbsp;%1$s', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(504): apply_filters('woocommerce_pri...', '%1$s%2$s', 'left')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(572): get_woocommerce_price_format()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(19 in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 88
+
+2021-08-17T09:05:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changingPointBaseditemPriceToIntforMiniCart(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:88
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changingPointBaseditemPriceToIntforMiniCart('%2$s&nbsp;%1$s', 'left')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('%2$s&nbsp;%1$s', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(504): apply_filters('woocommerce_pri...', '%1$s%2$s', 'left')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(572): get_woocommerce_price_format()
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(19 in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 88
+
+2021-08-17T09:22:03+00:00 CRITICAL Uncaught Error: Call to undefined function int() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:60
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(305): handPointBasedItemCheckout->changingPointBaseditemPriceToInt('2,360.00', 2360, 2, '.', ',')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('2,360.00', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php(603): apply_filters('formatted_wooco...', '2,360.00', 2360, 2, '.', ',', '2360.00')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1946): wc_price(2360)
+#4 /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php(993): WC_Cart->get_cart_subtotal()
+#5 /home/buybulks/public_html/wp-content/themes/woodmart/header-elements/cart.php(42): woodmart_cart_subtotal()
+#6 /home/buybulks/public_html/wp-content/th in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 60
+

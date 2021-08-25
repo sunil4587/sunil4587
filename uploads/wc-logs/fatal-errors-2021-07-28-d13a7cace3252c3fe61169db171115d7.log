@@ -1,0 +1,238 @@
+2021-07-28T08:06:45+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:66
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(false)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template('order/order-det...', Array)
+#6 /home/buybulks/public_html/wp-incl in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 66
+
+2021-07-28T08:08:49+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:66
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(false)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template('order/order-det...', Array)
+#6 /home/buybulks/public_html/wp-incl in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 66
+
+2021-07-28T08:08:53+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:66
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(false)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template('order/order-det...', Array)
+#6 /home/buybulks/public_html/wp-incl in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 66
+
+2021-07-28T08:13:11+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-07-28T08:24:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changeCurrencyForPointBasedOrderDetails(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:72
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): inc in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 72
+
+2021-07-28T08:24:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::changeCurrencyForPointBasedOrderDetails(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:72
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): inc in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 72
+
+2021-07-28T08:29:28+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(67): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:31:25+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(69): WC_Abstract_Order->set_currency('jess')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooComm in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:31:28+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(69): WC_Abstract_Order->set_currency('jess')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooComm in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:37:57+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:38:02+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:38:26+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:38:28+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:39:22+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:39:59+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:40:03+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(70): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:41:06+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(71): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:41:28+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(71): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T08:41:32+00:00 CRITICAL Uncaught WC_Data_Exception: Invalid currency code in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php:856
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(582): WC_Data->error('order_invalid_c...', 'Invalid currenc...')
+#1 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php(71): WC_Abstract_Order->set_currency('Points')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->changeCurrencyForPointBasedOrderDetails(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(58): do_action('woocommerce_ord...', Object(Automattic\WooCo in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php on line 856
+
+2021-07-28T10:03:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function templateOverride::loadCustomWCTemplate(), 0 passed in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 142 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:41
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php(142): templateOverride->loadCustomWCTemplate()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->ToGetTemplate('/home/buybulks/...', 'order/order-det...', Array, '', '')
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-det...', Array, '', '')
+#4 /home/buybulks/p in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 41
+
+2021-07-28T10:04:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function templateOverride::loadCustomWCTemplate(), 0 passed in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 144 and exactly 5 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:41
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php(144): templateOverride->loadCustomWCTemplate()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->ToGetTemplate('/home/buybulks/...', 'order/order-det...', Array, '', '')
+#2 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-det...', Array, '', '')
+#4 /home/buybulks/p in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 41
+
+2021-07-28T10:11:44+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:105
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-det...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-det...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template('order/order-det...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_details_table(8944)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/buybulks/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 105
+
+2021-07-28T10:11:48+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:105
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-det...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-det...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2601): wc_get_template('order/order-det...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_details_table(8944)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 /home/buybulks/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 105
+
+2021-07-28T10:22:11+00:00 CRITICAL Uncaught Error: Class 'templateOverride' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1124
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredSettingCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1124
+
+2021-07-28T10:32:26+00:00 CRITICAL Uncaught Error: Class 'templateOverride' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1124
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredSettingCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1124
+

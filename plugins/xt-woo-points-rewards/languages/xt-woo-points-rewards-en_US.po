@@ -1,0 +1,2476 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: XT WooCommerce Points & Rewards\n"
+"POT-Creation-Date: 2020-01-29 17:07-0500\n"
+"PO-Revision-Date: 2020-01-29 17:07-0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: xt-woo-points-rewards.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: deploy\n"
+
+#: admin/class-admin.php:141 admin/class-admin.php:296
+msgid "Manage Points"
+msgstr ""
+
+#: admin/class-admin.php:153 admin/class-admin.php:313
+msgid "Points Log"
+msgstr ""
+
+#: admin/class-admin.php:171
+msgid "Settings"
+msgstr ""
+
+#: admin/class-admin.php:244
+msgid "Configure"
+msgstr ""
+
+#: admin/class-admin.php:260
+#, php-format
+msgid ""
+"XT WooCommerce Points and Rewards requires coupons to be %senabled%s in "
+"order to function properly and allow customers to redeem points during "
+"checkout."
+msgstr ""
+
+#: admin/class-admin.php:442
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-admin.php:449
+msgid "Plugin enabled"
+msgstr ""
+
+#: admin/class-admin.php:450
+msgid "Enable the plugin once you're ready."
+msgstr ""
+
+#: admin/class-admin.php:458
+msgid "My Points Endpoint Slug"
+msgstr ""
+
+#: admin/class-admin.php:459
+msgid "Set the frontend endpoint slug used for the My Points page."
+msgstr ""
+
+#: admin/class-admin.php:468
+msgid "Points Settings"
+msgstr ""
+
+#: admin/class-admin.php:475
+msgid "Earn Points Conversion Rate"
+msgstr ""
+
+#: admin/class-admin.php:476
+msgid "Set the number of points awarded based on the product price."
+msgstr ""
+
+#: admin/class-admin.php:484
+msgid "Earn Points Rounding Mode"
+msgstr ""
+
+#: admin/class-admin.php:485
+msgid "Set how points should be rounded."
+msgstr ""
+
+#: admin/class-admin.php:498
+msgid "Redemption Conversion Rate"
+msgstr ""
+
+#: admin/class-admin.php:499
+msgid "Set the value of points redeemed for a discount."
+msgstr ""
+
+#: admin/class-admin.php:509
+msgid "Partial Redemption"
+msgstr ""
+
+#: admin/class-admin.php:510
+msgid "Enable partial redemption"
+msgstr ""
+
+#: admin/class-admin.php:511
+msgid ""
+"Lets users enter how many points they wish to redeem during cart/checkout."
+msgstr ""
+
+#: admin/class-admin.php:519
+msgid "Minimum Points Discount"
+msgstr ""
+
+#: admin/class-admin.php:520
+msgid ""
+"Set the minimum points monetary value required before being able to redeem "
+"points. Use a fixed monetary amount or leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:528 admin/class-product-admin.php:177
+#: admin/class-product-admin.php:277 admin/class-product-admin.php:308
+#: admin/class-product-admin.php:543 admin/class-product-admin.php:577
+msgid "Maximum Points Discount"
+msgstr ""
+
+#: admin/class-admin.php:529
+msgid ""
+"Set the maximum order discount allowed for the cart when redeeming points. "
+"Use either a fixed monetary amount or a percentage based on the order total. "
+"Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:537
+msgid "Maximum Product Points Discount"
+msgstr ""
+
+#: admin/class-admin.php:538
+msgid ""
+"Set the maximum product discount allowed when redeeming points per-product. "
+"Use either a fixed monetary amount or a percentage based on the product "
+"price. Leave blank to disable. This can be overridden at the category and "
+"product level."
+msgstr ""
+
+#: admin/class-admin.php:546
+msgid "Tax Setting"
+msgstr ""
+
+#: admin/class-admin.php:547
+msgid "Whether or not points should apply to prices inclusive of tax."
+msgstr ""
+
+#: admin/class-admin.php:559
+msgid "Points Label"
+msgstr ""
+
+#: admin/class-admin.php:560
+msgid "The label used to refer to points on the frontend, singular and plural."
+msgstr ""
+
+#: admin/class-admin.php:562 admin/class-manage-points-list-table.php:49
+#: admin/class-points-log-list-table.php:49
+msgid "Point"
+msgstr ""
+
+#: admin/class-admin.php:562 admin/class-admin.php:764
+#: admin/class-admin.php:1236 admin/class-manage-points-list-table.php:50
+#: admin/class-manage-points-list-table.php:96
+#: admin/class-points-log-list-table.php:50
+#: admin/class-points-log-list-table.php:71
+msgid "Points"
+msgstr ""
+
+#: admin/class-admin.php:568
+msgid "Points Expire After"
+msgstr ""
+
+#: admin/class-admin.php:569
+msgid "Set the period after which points expire once granted to a user"
+msgstr ""
+
+#: admin/class-admin.php:587
+msgid "Messages"
+msgstr ""
+
+#: admin/class-admin.php:588
+#, php-format
+msgid ""
+"Adjust the message by using %1$s{points}%2$s and %1$s{points_label}%2$s to "
+"represent the points earned / available for redemption and the label set for "
+"points."
+msgstr ""
+
+#: admin/class-admin.php:597
+msgid "Single Product Page Message"
+msgstr ""
+
+#: admin/class-admin.php:598
+msgid ""
+"Add an optional message to the single product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:601
+#, php-format
+msgid "Purchase this product now and earn %s!"
+msgstr ""
+
+#: admin/class-admin.php:607
+msgid "Variable Product Page Message"
+msgstr ""
+
+#: admin/class-admin.php:608
+msgid ""
+"Add an optional message to the variable product page below the price. "
+"Customize the message using {points} and {points_label}. Limited HTML is "
+"allowed. Leave blank to disable."
+msgstr ""
+
+#: admin/class-admin.php:611
+#, php-format
+msgid "Earn up to %s."
+msgstr ""
+
+#: admin/class-admin.php:617
+msgid "Earn Points Cart / Checkout Page Message"
+msgstr ""
+
+#: admin/class-admin.php:618
+msgid ""
+"Displayed on the cart and checkout page when points are earned. Customize "
+"the message using {points} and {points_label}. Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:621
+#, php-format
+msgid "Complete your order and earn %s for a discount on a future purchase"
+msgstr ""
+
+#: admin/class-admin.php:627
+msgid "Redeem Points Cart / Checkout Page Message"
+msgstr ""
+
+#: admin/class-admin.php:628
+msgid ""
+"Displayed on the cart and checkout page when points are available for "
+"redemption. Customize the message using {points}, {points_value}, and "
+"{points_label}. Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:631
+#, php-format
+msgid "Use %s for a %s discount on this order!"
+msgstr ""
+
+#: admin/class-admin.php:637
+msgid "Order Received & Order Detail Page Message"
+msgstr ""
+
+#: admin/class-admin.php:638
+msgid ""
+"Displayed on the thank you / order received & order detail page when points "
+"were earned. Customize the message using {points}, {total_points}, "
+"{points_label}, and {total_points_label}. Limited HTML is allowed."
+msgstr ""
+
+#: admin/class-admin.php:641
+#, php-format
+msgid "You have earned %s for this order. You have a total of %s."
+msgstr ""
+
+#: admin/class-admin.php:658
+msgid "Points Earned for Actions"
+msgstr ""
+
+#: admin/class-admin.php:659
+msgid ""
+"Customers can also earn points for actions like creating an account or "
+"writing a product review. You can enter the amount of points the customer "
+"will earn for each action in this section."
+msgstr ""
+
+#: admin/class-admin.php:668
+msgid "Admin Tools"
+msgstr ""
+
+#: admin/class-admin.php:673
+msgid "Apply Points to Previous Orders"
+msgstr ""
+
+#: admin/class-admin.php:674
+msgid ""
+"This will apply points to all previous orders (processing and completed) and "
+"cannot be reversed."
+msgstr ""
+
+#: admin/class-admin.php:675
+msgid "Apply Points"
+msgstr ""
+
+#: admin/class-admin.php:682
+msgid "Delete all points and clear the logs."
+msgstr ""
+
+#: admin/class-admin.php:683
+msgid "This action will remove all customer points. This cannot be undone!"
+msgstr ""
+
+#: admin/class-admin.php:684 admin/class-admin.php:1347
+msgid "Delete all points and clear the logs"
+msgstr ""
+
+#: admin/class-admin.php:691 admin/class-admin.php:693
+#: admin/class-admin.php:1354
+msgid "Factory Reset"
+msgstr ""
+
+#: admin/class-admin.php:692
+msgid ""
+"This action will remove all customer points, user metas, category metas & "
+"post metas ever saved by the plugin. This cannot be undone!"
+msgstr ""
+
+#: admin/class-admin.php:802
+msgid "Singular Label"
+msgstr ""
+
+#: admin/class-admin.php:803
+msgid "Plural Label"
+msgstr ""
+
+#: admin/class-admin.php:945
+#, php-format
+msgid "%sOnly apply to points earned since%s - %sOptional%s"
+msgstr ""
+
+#: admin/class-admin.php:948 admin/class-admin.php:995
+msgctxt "placeholder"
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: admin/class-admin.php:950
+msgid "Leave blank to apply to all points"
+msgstr ""
+
+#: admin/class-admin.php:980 admin/class-admin.php:1027
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#: admin/class-admin.php:987
+msgid "Up Until "
+msgstr ""
+
+#: admin/class-admin.php:989
+msgid "Leave blank to apply to all orders"
+msgstr ""
+
+#: admin/class-admin.php:1129
+msgid "Database error while applying user points."
+msgstr ""
+
+#: admin/class-admin.php:1156
+#, php-format
+msgid "%d order updated."
+msgid_plural "%s orders updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-admin.php:1174
+msgid "All points and logs have been successfully deleted!"
+msgstr ""
+
+#: admin/class-admin.php:1215
+msgid "Factory Reset Succeeded!"
+msgstr ""
+
+#: admin/class-admin.php:1239
+msgid "Earned:"
+msgstr ""
+
+#: admin/class-admin.php:1241 admin/class-admin.php:1247
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:176
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:192
+msgid "None"
+msgstr ""
+
+#: admin/class-admin.php:1245
+msgid "Redeemed:"
+msgstr ""
+
+#: admin/class-admin.php:1267 admin/class-product-admin.php:156
+#: admin/class-product-admin.php:263 admin/class-product-admin.php:297
+#: admin/class-product-admin.php:531 admin/class-product-admin.php:567
+msgid "points related settings below"
+msgstr ""
+
+#: admin/class-admin.php:1274
+msgid "Points Modifier"
+msgstr ""
+
+#: admin/class-admin.php:1275
+msgid ""
+"Enter a percentage which modifies how points are earned when this coupon is "
+"applied. For example, enter 200% to double the amount of points typically "
+"earned when the coupon is applied."
+msgstr ""
+
+#: admin/class-admin.php:1346
+msgid "XT Points and Rewards: Reset Points"
+msgstr ""
+
+#: admin/class-admin.php:1348
+#, php-format
+msgid ""
+"%1$sNote:%2$s This action will remove all customer points. This cannot be "
+"undone!"
+msgstr ""
+
+#: admin/class-admin.php:1353
+msgid "XT Points and Rewards: Factory Reset"
+msgstr ""
+
+#: admin/class-admin.php:1355
+#, php-format
+msgid ""
+"%1$sNote:%2$s This action will remove all customer points, user metas, "
+"category metas & post metas ever saved by the plugin. This cannot be undone!"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:72
+#: admin/class-manage-points-list-table.php:98
+#: admin/class-manage-points-list-table.php:189
+msgid "Update"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:95
+#: admin/class-points-log-list-table.php:70
+msgid "Customer"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:97
+msgid "Value"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:254
+#, php-format
+msgid "%d customer updated."
+msgid_plural "%s customers updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-manage-points-list-table.php:257
+#, php-format
+msgid "%d customer could not be updated."
+msgid_plural "%s customers could not be updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-manage-points-list-table.php:380
+msgid "No user points found"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:382
+msgid ""
+"User points will appear here for you to view and manage once you have "
+"customers."
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:409
+#: admin/class-manage-points-list-table.php:420
+#: admin/class-points-log-list-table.php:301
+#: admin/class-points-log-list-table.php:310
+msgid "Show All Customers"
+msgstr ""
+
+#: admin/class-manage-points-list-table.php:425
+#: admin/class-points-log-list-table.php:329
+msgid "Filter"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:72
+#: public/templates/myaccount/my-points.php:36
+msgid "Event"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:73
+#: public/templates/myaccount/my-points.php:37
+#: xt-framework/includes/customizer/xirki/example.php:66
+msgid "Date"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:126
+msgid "Unknown"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:273
+msgid "No log entries found"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:275
+msgid "Point log entries will appear here for you to view and manage."
+msgstr ""
+
+#: admin/class-points-log-list-table.php:316
+msgid "Show All Event Types"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:359
+msgid "Show all Event Dates"
+msgstr ""
+
+#: admin/class-points-log-list-table.php:371
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: admin/class-product-admin.php:164 admin/class-product-admin.php:269
+#: admin/class-product-admin.php:303 admin/class-product-admin.php:373
+#: admin/class-product-admin.php:407 admin/class-product-admin.php:536
+#: admin/class-product-admin.php:572 admin/class-product-admin.php:661
+#: public/class-actions.php:255 public/class-actions.php:300
+msgid "Points Earned"
+msgstr ""
+
+#: admin/class-product-admin.php:165
+msgid ""
+"This can be either a fixed number of points earned for purchasing this "
+"product, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the normal rate, enter "
+"200%.  This setting modifies the global Points Conversion Rate and overrides "
+"any category value.  Use 0 to assign no points for this product, and empty "
+"to use the global/category settings."
+msgstr ""
+
+#: admin/class-product-admin.php:178 admin/class-product-admin.php:252
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+
+#: admin/class-product-admin.php:191 admin/class-product-admin.php:285
+#: admin/class-product-admin.php:317 admin/class-product-admin.php:554
+#: admin/class-product-admin.php:585
+msgid "Change Renewal Points"
+msgstr ""
+
+#: admin/class-product-admin.php:192 admin/class-product-admin.php:253
+#: admin/class-product-admin.php:523
+msgid ""
+"For Subscription renewals with a different point value than the signup, "
+"enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the "
+"product price. For example, if you want to restrict the discount on this "
+"product to a maximum of 50%, enter 50%, or enter 5 to restrict the maximum "
+"discount to $5.  This setting overrides the global/category defaults, use 0 "
+"to disable point discounts for this product, and blank to use the global/"
+"category default."
+msgstr ""
+
+#: admin/class-product-admin.php:251
+msgid ""
+"This can either be a fixed number of points earned for purchasing this "
+"variation, or a percentage which assigns points based on the price. For "
+"example, if you want to award points equal to double the the normal rate, "
+"enter 200%.  This setting modifies the global Points Conversion Rate and "
+"overrides any category value.  Use 0 to assign no points for this variation, "
+"and empty to use the global/category settings."
+msgstr ""
+
+#: admin/class-product-admin.php:272 admin/class-product-admin.php:304
+msgid "Variation Points Earned"
+msgstr ""
+
+#: admin/class-product-admin.php:280 admin/class-product-admin.php:309
+msgid "Variation Max Points Discount"
+msgstr ""
+
+#: admin/class-product-admin.php:288 admin/class-product-admin.php:318
+msgid "Variation Change Rewards Points"
+msgstr ""
+
+#: admin/class-product-admin.php:383
+msgid "Enter a value"
+msgstr ""
+
+#: admin/class-product-admin.php:412
+msgid "— No Change —"
+msgstr ""
+
+#: admin/class-product-admin.php:413
+msgid "Change to:"
+msgstr ""
+
+#: admin/class-product-admin.php:414
+msgid "Increase by (fixed amount or %):"
+msgstr ""
+
+#: admin/class-product-admin.php:415
+msgid "Decrease by (fixed amount or %):"
+msgstr ""
+
+#: admin/class-product-admin.php:425
+msgid "Enter Points Earned"
+msgstr ""
+
+#: admin/class-product-admin.php:521
+msgid ""
+"This can either be a fixed number of points earned for the purchase of any "
+"product that belongs to this category, or a percentage which assigns points "
+"based on the price of the product. For example, if you want to award points "
+"equal to double the normal rate, enter 200%.  This setting modifies the "
+"global Points Conversion Rate, but can be overridden by a product/variation. "
+"Use 0 to assign no points for products belonging to this category, and empty "
+"to use the global setting."
+msgstr ""
+
+#: admin/class-product-admin.php:522
+msgid ""
+"Enter either a fixed maximum discount amount or percentage which restricts "
+"the amount of points that can be redeemed for a discount based on the price "
+"of the product in this category. For example, if you want to restrict the "
+"discount on this category to a maximum of 50%, enter 50%, or enter $5 to "
+"restrict the maximum discount to $5.  This setting overrides the global "
+"default, but can be overridden by a product/variation. Use 0 to disable "
+"point discounts for this product, and blank to use the global/category "
+"default."
+msgstr ""
+
+#: public/class-actions.php:140
+msgid "Points earned for account registration"
+msgstr ""
+
+#: public/class-actions.php:141
+msgid "Enter the amount of points earned when a customer register an account."
+msgstr ""
+
+#: public/class-actions.php:146
+msgid "Points earned for writing a review"
+msgstr ""
+
+#: public/class-actions.php:147
+msgid ""
+"Enter the amount of points earned when a customer first reviews a product."
+msgstr ""
+
+#: public/class-actions.php:152
+msgid "Points earned for the first order placed"
+msgstr ""
+
+#: public/class-actions.php:153
+msgid ""
+"Enter the amount of points earned when a customer places an order for the "
+"first time."
+msgstr ""
+
+#: public/class-actions.php:158
+msgid "Points earned after number of points collected"
+msgstr ""
+
+#: public/class-actions.php:159
+msgid ""
+"Enter the amount of points earned when a customer reaches a specific number "
+"of points"
+msgstr ""
+
+#: public/class-actions.php:165
+msgid "Points earned when a spend threshold reached"
+msgstr ""
+
+#: public/class-actions.php:166
+msgid ""
+"Enter the amount of points earned when a customer reaches a spend threshold"
+msgstr ""
+
+#: public/class-actions.php:172
+msgid "Points earned when it's the customer's birthday"
+msgstr ""
+
+#: public/class-actions.php:173
+msgid ""
+"Enter the amount of points earned when it's a customer's birthday. If set, a "
+"required birth date field will appear within WooCommerce billing form on "
+"both the frontend and backend."
+msgstr ""
+
+#: public/class-actions.php:197
+msgid "their"
+msgstr ""
+
+#: public/class-actions.php:197
+msgid "your"
+msgstr ""
+
+#: public/class-actions.php:202
+#, php-format
+msgid "%s earned for signing up"
+msgstr ""
+
+#: public/class-actions.php:205
+#, php-format
+msgid "%s earned for reviewing"
+msgstr ""
+
+#: public/class-actions.php:208
+#, php-format
+msgid "%s earned for placing %s first order"
+msgstr ""
+
+#: public/class-actions.php:211
+#, php-format
+msgid "%s earned for collecting points"
+msgstr ""
+
+#: public/class-actions.php:214
+#, php-format
+msgid "%s earned for spending"
+msgstr ""
+
+#: public/class-actions.php:217
+#, php-format
+msgid "%s earned for %s birthday"
+msgstr ""
+
+#: public/class-actions.php:260
+msgid "# Points Collected"
+msgstr ""
+
+#: public/class-actions.php:305
+msgid "Spending Threshold"
+msgstr ""
+
+#: public/class-actions.php:328
+msgid "# Points Collected field cannot be empty"
+msgstr ""
+
+#: public/class-actions.php:354
+msgid "Spending Threshold field cannot be empty"
+msgstr ""
+
+#: public/class-actions.php:508
+#, php-format
+msgid "Customer earned %1$d %2$s for placing first order."
+msgstr ""
+
+#: public/class-actions.php:610
+msgid "Database error while detecting user birthdays"
+msgstr ""
+
+#: public/class-actions.php:632
+#, php-format
+msgid "%d birthday detected today."
+msgid_plural "%s birthdays detected today."
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-actions.php:969
+msgid "Please enter your birth date."
+msgstr ""
+
+#: public/class-actions.php:977
+msgid "Please enter a valid birth date."
+msgstr ""
+
+#: public/class-actions.php:997
+#, php-format
+msgid "Please enter your %sbirth date%s."
+msgstr ""
+
+#: public/class-actions.php:1006
+#, php-format
+msgid "Please enter a valid %sbirth date%s."
+msgstr ""
+
+#: public/class-cart-checkout.php:98
+msgid "Points redemption"
+msgstr ""
+
+#: public/class-cart-checkout.php:367
+msgid "Apply Discount"
+msgstr ""
+
+#: public/class-cart-checkout.php:384
+msgid "How many points would you like to apply?"
+msgstr ""
+
+#: public/class-discount.php:238 public/class-legacy-discount.php:145
+msgid "Discount Applied Successfully"
+msgstr ""
+
+#: public/class-manager.php:75
+#, php-format
+msgid "%s reset by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:76
+#, php-format
+msgid "%s adjusted by \"admin\""
+msgstr ""
+
+#: public/class-manager.php:77
+#, php-format
+msgid "%s earned for purchase"
+msgstr ""
+
+#: public/class-manager.php:78
+#, php-format
+msgid "%s adjusted for cancelled order"
+msgstr ""
+
+#: public/class-manager.php:79
+#, php-format
+msgid "%s adjusted for an order refund"
+msgstr ""
+
+#: public/class-manager.php:80
+#, php-format
+msgid "%s redeemed towards purchase"
+msgstr ""
+
+#: public/class-manager.php:81
+#, php-format
+msgid "%s expired"
+msgstr ""
+
+#: public/class-order.php:154
+#, php-format
+msgid "Customer earned %1$d %2$s for purchase."
+msgstr ""
+
+#: public/class-order.php:299
+#, php-format
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr ""
+
+#: public/class-order.php:358 public/class-order.php:413
+#, php-format
+msgid "%1$d %2$s removed."
+msgstr ""
+
+#: public/class-order.php:374
+#, php-format
+msgid "%1$d %2$s credited back to customer."
+msgstr ""
+
+#: public/class-points-log.php:131
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: public/class-product.php:190
+#, php-format
+msgid "Earn at least <strong>%d</strong> points by purchasing this product."
+msgstr ""
+
+#: public/class-public.php:216 public/templates/myaccount/my-points.php:26
+#, php-format
+msgid "My %s"
+msgstr ""
+
+#: public/templates/myaccount/my-points.php:27
+#, php-format
+msgid "You have %s%d%s %s"
+msgstr ""
+
+#: public/templates/myaccount/my-points.php:31
+#, php-format
+msgid "My %s History"
+msgstr ""
+
+#: public/templates/myaccount/my-points.php:60
+msgid "Previous"
+msgstr ""
+
+#: public/templates/myaccount/my-points.php:64
+msgid "Next"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:65
+msgid "Browse Plugins"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:77
+msgid "XplodedThemes.com"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:88
+msgid "Docs"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:89
+msgid "Documentation"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-framework-tabs.php:100
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:117
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:128
+#: xt-framework/includes/class-framework.php:525
+msgid "Support"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:102
+msgid "Change Log"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:103
+msgid "About"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:138
+msgid "Make $$$"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:149
+msgid "Account"
+msgstr ""
+
+#: xt-framework/includes/admin-tabs/class-plugin-tabs.php:161
+msgid "Upgrade&nbsp;&nbsp;➤"
+msgstr ""
+
+#: xt-framework/includes/class-admin-messages.php:38
+#: xt-framework/includes/class-admin-messages.php:57
+#, php-format
+msgid ""
+"You can <a href=\"%s\">Upgrade</a> or <a href=\"%s\">Activate</a> your "
+"license to unlock access to %s."
+msgstr ""
+
+#: xt-framework/includes/class-admin-messages.php:77
+#, php-format
+msgid "The %s will unlock access to %s."
+msgstr ""
+
+#: xt-framework/includes/class-admin-messages.php:78
+msgid "Premium Version"
+msgstr ""
+
+#: xt-framework/includes/class-admin-messages.php:85
+msgid "Upgrade License"
+msgstr ""
+
+#: xt-framework/includes/class-admin-messages.php:88
+#: xt-framework/includes/license/includes/class-license.php:105
+msgid "Activate License"
+msgstr ""
+
+#: xt-framework/includes/class-conflicts-check.php:87
+#, php-format
+msgid "%1$s has been disabled since it cannot be active while using %2$s!"
+msgstr ""
+
+#: xt-framework/includes/class-dependencies-check.php:89
+#, php-format
+msgid "%1$s%2$s%3$s plugin requires %4$s to be installed and active."
+msgstr ""
+
+#: xt-framework/includes/class-framework.php:1792
+#: xt-framework/includes/class-framework.php:1802
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:67
+msgid "WordPress Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:68
+msgid "WooCommerce Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:69
+msgid "Available Memory"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:70
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:156
+msgid "PHP Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:71
+msgid "TLS Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:72
+msgid "WordPress Cron"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:73
+msgid "SimpleXML"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:74
+msgid "MultiByte String"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:75
+msgid "ImageMagick Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:76
+msgid "GD Library"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:77
+msgid "Iconv Module"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:78
+msgid "OPCache Save Comments"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:79
+msgid "URL FOpen"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:96
+msgid "System Status"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:139
+msgid "General Info"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:143
+msgid "Site URL"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:151
+msgid "Output IP Address"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:159
+msgid "XT Framework PATH"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:167
+msgid "XT Framework Version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:175
+msgid "Active XT Plugins"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:202
+msgid "System Info"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:225
+#: xt-framework/includes/customizer/xirki/example.php:861
+#: xt-framework/includes/license/includes/class-license.php:495
+msgid "Enabled"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:225
+#: xt-framework/includes/customizer/xirki/example.php:862
+msgid "Disabled"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:231
+msgid "N/A"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:246
+#, php-format
+msgid "%s needs %s enabled"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:248
+#, php-format
+msgid "%s needs at least %s of available memory"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:251
+#: xt-framework/includes/class-system-status.php:297
+#, php-format
+msgid ""
+"For optimal functioning of our plugins, we suggest setting at least %s of "
+"available memory"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:254
+#, php-format
+msgid "%s needs at least %s version"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:264
+msgid ""
+"Update it to the latest version in order to benefit of all new features and "
+"security updates."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:270
+msgid "Contact your hosting company in order to update it."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:274
+#, php-format
+msgid "Remove %s from %s file"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:282
+msgid "Contact your hosting company in order to enable it."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:285
+#: xt-framework/includes/class-system-status.php:299
+#, php-format
+msgid ""
+"Read more %s here%s or contact your hosting company in order to increase it."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:305
+#, php-format
+msgid ""
+"We cannot determine which %1$sTLS%2$s version is installed because %1$scURL"
+"%2$s module is disabled. Ask your hosting company to enable it."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:308
+#, php-format
+msgid ""
+"%1$sImageMagick%2$s module is not installed. Ask your hosting company to "
+"install it."
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:321
+msgid "Show Full PHP Info"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:325
+msgid "Back to System Status"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:342
+msgid "Back to top"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:365
+msgid "WooCommerce"
+msgstr ""
+
+#: xt-framework/includes/class-system-status.php:463
+#, php-format
+msgid ""
+"{title:} The system check has detected some compatibility issues on your "
+"installation. %sClick here%s to know more"
+msgstr ""
+
+#: xt-framework/includes/customizer/class-customizer.php:209
+msgid "Customize"
+msgstr ""
+
+#: xt-framework/includes/customizer/class-customizer.php:235
+#: xt-framework/includes/customizer/class-customizer.php:245
+msgid "Open in Customizer"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:48
+msgid "Background Color"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:54
+msgid "Background Image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:59
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:132
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:408
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:62
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:133
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:386
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:418
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:443
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:37
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:50
+msgid "Remove"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:63
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:135
+msgid "Select File"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:70
+msgid "Background Repeat"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:72
+msgid "No Repeat"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:73
+msgid "Repeat All"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:81
+msgid "Background Position"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:83
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:84
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:85
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:86
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:87
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:88
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:89
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:90
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:91
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:100
+msgid "Cover"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:103
+msgid "Contain"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:116
+msgid "Scroll"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-background.php:119
+msgid "Fixed"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:134
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:36
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:49
+msgid "Default"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimension.php:41
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:123
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:102
+msgid "Font Size"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:125
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:127
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:128
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:129
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:130
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:131
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:145
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:34
+msgid "Left"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:132
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:157
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-spacing.php:35
+msgid "Right"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:133
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:151
+msgid "Center"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:86
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:227
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:376
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:387
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:387
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:419
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:419
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-switch.php:52
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-switch.php:39
+msgid "On"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-switch.php:56
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-switch.php:40
+msgid "Off"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:83
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:139
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:181
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:197
+msgid "Inherit"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:178
+msgid "Uppercase"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:180
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/php/class-xirki-control-typography.php:221
+#: xt-framework/includes/customizer/xirki/example.php:62
+#: xt-framework/includes/customizer/xirki/example.php:591
+msgid "Color"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:34
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:39
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:47
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:35
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:38
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/controls/views/image.php:40
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:257
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:375
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:498
+#: xt-framework/includes/customizer/xirki/core/class-xirki-field.php:509
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:289
+msgid ""
+"We detected you're using Xirki_Init::get_variables(). Please use Xirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:365
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
+"icons on your frontend we recommend you install the official Font Awesome "
+"plugin."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki-init.php:369
+msgid "Don't show this again"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/core/class-xirki.php:237
+msgid ""
+"Xirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:45
+msgid "Xirki Demo Panel"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:46
+msgid "Contains sections for all xirki controls."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:59
+msgid "Background"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:60
+msgid "Code"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:61
+#: xt-framework/includes/customizer/xirki/example.php:749
+msgid "Checkbox"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:63
+msgid "Color Palette"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:64
+msgid "Custom"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:65
+msgid "Dashicons"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:67
+msgid "Dimension"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:68
+msgid "Dimensions"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:69
+msgid "Dropdown Pages"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:70
+msgid "Editor"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:71
+msgid "Font-Awesome"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:72
+msgid "Generic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:73
+msgid "Image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:74
+msgid "Multicheck"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:75
+msgid "Multicolor"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:76
+msgid "Number"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:77
+msgid "Palette"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:78
+msgid "Preset"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:79
+msgid "Radio"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:79
+msgid "A plain Radio control."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:80
+msgid "Radio Buttonset"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:80
+msgid ""
+"Radio-Buttonset controls are essentially radio controls with some fancy "
+"styling to make them look cooler."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:81
+msgid "Radio Image"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:81
+msgid ""
+"Radio-Image controls are essentially radio controls with some fancy styles "
+"to use images"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:82
+msgid "Repeater"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:83
+msgid "Select"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:84
+msgid "Slider"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:85
+msgid "Sortable"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:86
+msgid "Switch"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:87
+msgid "Toggle"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:88
+msgid "Typography"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:105
+msgid "Test Link Section"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:107
+msgid "Pro"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:130
+msgid "Background Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:131
+msgid "Background conrols are pretty complex! (but useful if properly used)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:153
+msgid "Code Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:154
+#: xt-framework/includes/customizer/xirki/example.php:173
+#: xt-framework/includes/customizer/xirki/example.php:483
+#: xt-framework/includes/customizer/xirki/example.php:494
+#: xt-framework/includes/customizer/xirki/example.php:846
+#: xt-framework/includes/customizer/xirki/example.php:857
+#: xt-framework/includes/customizer/xirki/example.php:882
+msgid "Description"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:172
+msgid "Checkbox Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:188
+msgid "Color Control (hex-only)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:189
+msgid "This is a color control - without alpha channel."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:199
+msgid "Color Control (with alpha channel)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:200
+msgid "This is a color control - with alpha channel."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:213
+msgid "Color Control - hue only."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:214
+msgid "This is a color control - hue only."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:228
+msgid "Date Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:229
+msgid "This is a date control."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:242
+msgid "First Editor Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:243
+msgid "This is an editor control."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:253
+msgid "Second Editor Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:254
+msgid ""
+"This is a 2nd editor control just to check that we do not have issues with "
+"multiple instances."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:256
+msgid "Default Text"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:269
+#: xt-framework/includes/customizer/xirki/example.php:284
+#: xt-framework/includes/customizer/xirki/example.php:299
+#: xt-framework/includes/customizer/xirki/example.php:314
+#: xt-framework/includes/customizer/xirki/example.php:329
+msgid "Color-Palette"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:270
+msgid "This is a color-palette control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:285
+msgid "Material Design Colors - all"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:300
+msgid "Material Design Colors - primary"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:315
+msgid "Material Design Colors - red"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:330
+msgid "Material Design Colors - A100"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:350
+msgid "Dashicons Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:351
+msgid "Using a custom array of dashicons"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:370
+msgid "All Dashicons"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:371
+msgid "Showing all dashicons"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:384
+#: xt-framework/includes/customizer/xirki/example.php:401
+#: xt-framework/includes/customizer/xirki/example.php:415
+#: xt-framework/includes/customizer/xirki/example.php:450
+msgid "Dimension Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:385
+#: xt-framework/includes/customizer/xirki/example.php:402
+#: xt-framework/includes/customizer/xirki/example.php:416
+#: xt-framework/includes/customizer/xirki/example.php:432
+#: xt-framework/includes/customizer/xirki/example.php:451
+#: xt-framework/includes/customizer/xirki/example.php:469
+#: xt-framework/includes/customizer/xirki/example.php:525
+#: xt-framework/includes/customizer/xirki/example.php:536
+#: xt-framework/includes/customizer/xirki/example.php:550
+msgid "Description Here."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:431
+msgid "Spacing Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:468
+msgid "Font Awesome Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:482
+msgid "Text Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:493
+msgid "Textarea Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:504
+msgid "Custom input Control."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:505
+msgid ""
+"The \"generic\" control allows you to add any input type you want. In this "
+"case we use type=\"password\" and define custom styles."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:524
+msgid "Image Control (URL)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:535
+msgid "Image Control (ID)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:549
+msgid "Image Control (array)"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:566
+msgid "Multickeck Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:571
+#: xt-framework/includes/customizer/xirki/example.php:653
+#: xt-framework/includes/customizer/xirki/example.php:674
+#: xt-framework/includes/customizer/xirki/example.php:769
+#: xt-framework/includes/customizer/xirki/example.php:788
+#: xt-framework/includes/customizer/xirki/example.php:828
+msgid "Option 1"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:572
+#: xt-framework/includes/customizer/xirki/example.php:654
+#: xt-framework/includes/customizer/xirki/example.php:675
+#: xt-framework/includes/customizer/xirki/example.php:770
+#: xt-framework/includes/customizer/xirki/example.php:789
+#: xt-framework/includes/customizer/xirki/example.php:829
+msgid "Option 2"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:573
+#: xt-framework/includes/customizer/xirki/example.php:655
+#: xt-framework/includes/customizer/xirki/example.php:676
+#: xt-framework/includes/customizer/xirki/example.php:771
+#: xt-framework/includes/customizer/xirki/example.php:790
+#: xt-framework/includes/customizer/xirki/example.php:830
+msgid "Option 3"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:574
+#: xt-framework/includes/customizer/xirki/example.php:656
+#: xt-framework/includes/customizer/xirki/example.php:772
+#: xt-framework/includes/customizer/xirki/example.php:791
+#: xt-framework/includes/customizer/xirki/example.php:831
+msgid "Option 4"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:575
+#: xt-framework/includes/customizer/xirki/example.php:657
+#: xt-framework/includes/customizer/xirki/example.php:773
+#: xt-framework/includes/customizer/xirki/example.php:792
+#: xt-framework/includes/customizer/xirki/example.php:832
+msgid "Option 5"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:587
+#: xt-framework/includes/customizer/xirki/example.php:611
+#: xt-framework/includes/customizer/xirki/example.php:629
+msgid "Label"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:592
+msgid "Hover"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:593
+msgid "Active"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:648
+msgid "Radio Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:649
+#: xt-framework/includes/customizer/xirki/example.php:670
+#: xt-framework/includes/customizer/xirki/example.php:689
+#: xt-framework/includes/customizer/xirki/example.php:708
+#: xt-framework/includes/customizer/xirki/example.php:764
+#: xt-framework/includes/customizer/xirki/example.php:783
+#: xt-framework/includes/customizer/xirki/example.php:805
+msgid "The description here."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:669
+msgid "Radio-Buttonset Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:688
+msgid "Radio-Image Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:707
+msgid "Repeater Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:712
+msgid "Xirki Site"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:718
+msgid "Xirki Repository"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:727
+msgid "Link Text"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:728
+msgid "This will be the label for your link"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:733
+msgid "Link URL"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:734
+msgid "This will be the link URL"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:739
+msgid "Link Target"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:740
+msgid "This will be the link target"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:743
+msgid "New Window"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:744
+msgid "Same Frame"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:763
+#: xt-framework/includes/customizer/xirki/example.php:782
+msgid "Select Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:767
+msgid "Select an option"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:804
+msgid "Slider Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:824
+msgid "This is a sortable control."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:833
+msgid "Option 6"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:845
+msgid "Switch Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:856
+msgid "Switch Control with custom labels"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:881
+msgid "Toggle Control"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:906
+#: xt-framework/includes/customizer/xirki/example.php:960
+msgid "Typography Control Label"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:907
+#: xt-framework/includes/customizer/xirki/example.php:961
+msgid "The full set of options."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:998
+msgid "Sidebars Select"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/example.php:999
+msgid "An example of how to implement sidebars selection."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-color.php:52
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use "
+"\"choices[alpha]\" instead."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/field/class-xirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Xirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/custom-sections/sections/class-xirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/custom-sections/sections/class-xirki-sections-nested-section.php:64
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:146
+msgid "Help us improve Xirki."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:147
+msgid ""
+"Help us begin a dialogue with theme developers, collaborate and improve both "
+"the theme you are using and the Xirki framework by agreeing to send "
+"anonymous data. <strong>The data is completely anonymous and we will never "
+"collect any identifyable information about you or your website.</strong>"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:151
+msgid "Data that will be sent"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:160
+msgid "Theme Name"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:164
+msgid "Theme Author"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:168
+msgid "Theme URI"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:172
+msgid "Field Types Used"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:182
+#, php-format
+msgid ""
+"We believe in complete transparency. You can see the code used on our server "
+"<a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the "
+"statistics we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this page</"
+"a>."
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:193
+msgid "I agree"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:194
+msgid "No thanks"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:195
+msgid "Show me the data"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/telemetry/class-xirki-modules-telemetry.php:196
+msgid "Collapse data"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:198
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:205
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:210
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:215
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:218
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/modules/webfonts/class-xirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: xt-framework/includes/customizer/xirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr ""
+
+#: xt-framework/includes/functions-formatting.php:38
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:600
+msgid "Day(s)"
+msgstr ""
+
+#: xt-framework/includes/functions-formatting.php:39
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:601
+msgid "Week(s)"
+msgstr ""
+
+#: xt-framework/includes/functions-formatting.php:40
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:602
+msgid "Month(s)"
+msgstr ""
+
+#: xt-framework/includes/functions-formatting.php:41
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:603
+msgid "Year(s)"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:108
+msgid "License Activated"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:115
+msgid "License"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:385
+#: xt-framework/includes/license/includes/class-license.php:482
+#, php-format
+msgid "Your Support License is %1$s."
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:386
+msgid "Not Activated"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:412
+#: xt-framework/includes/license/includes/class-license.php:429
+#: xt-framework/includes/license/includes/class-license.php:548
+msgid "Buy License"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:413
+msgid "Validate"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:419
+#, php-format
+msgid "This %1$s is activated somewhere else."
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:427
+msgid "Cancel"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:430
+msgid "Revoke"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:440
+#, php-format
+msgid "This %1$s is %2$s."
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:442
+msgid "Invalid"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:459
+#, php-format
+msgid "%1$sOops!%2$s %3$sCannot reach license server!%4$s"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:483
+msgid "Valid"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:494
+#, php-format
+msgid "Support & automated updates are now %1$s"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:508
+#, php-format
+msgid "Your Support License has %1$s."
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:509
+msgid "Expired"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:520
+#, php-format
+msgid ""
+"Support & automated updates are now %1$sDisabled%2$s!%3$sYou can still use "
+"the plugin%4$s and update it manually from Envato"
+msgstr ""
+
+#: xt-framework/includes/license/includes/class-license.php:549
+msgid "Revoke License"
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:55
+msgid "View details"
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:78
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:131
+msgid "Check for updates"
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:219
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:221
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Plugin/Ui.php:227
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: xt-framework/includes/license/includes/plugin-update-checker/Puc/v4p8/Vcs/PluginUpdateChecker.php:99
+msgid "There is no changelog available."
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:152
+msgid "Save Changes"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:535
+msgid "Select a page&hellip;"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:558
+msgid "Choose a country&hellip;"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:558
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:583
+msgid "Country"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:583
+msgid "Choose countries&hellip;"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:591
+msgid "Select all"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:591
+msgid "Select none"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:702
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: xt-framework/includes/plugin-settings/class-plugin-settings.php:712
+msgid "Failed saving settings!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: xt-woo-points-rewards.php:40
+msgid "XT WooCommerce Points & Rewards"
+msgstr ""
+
+#: xt-woo-points-rewards.php:41
+msgid "Woo Points Rewards"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://xplodedthemes.com/products/woo-points-rewards/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WooCommerce extension that lets you reward your customers for purchases "
+"and other actions with points that can be redeemed for discounts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XplodedThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xplodedthemes.com"
+msgstr ""

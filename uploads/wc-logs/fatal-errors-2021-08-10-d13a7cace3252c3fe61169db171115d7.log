@@ -1,0 +1,92 @@
+2021-08-10T08:16:58+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-cron.php(44): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-10T09:00:07+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T09:00:09+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T09:00:10+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T09:03:01+00:00 CRITICAL Cannot redeclare woocommerce_mini_cart() (previously declared in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2156) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 117
+
+2021-08-10T09:03:04+00:00 CRITICAL Cannot redeclare woocommerce_mini_cart() (previously declared in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2156) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 117
+
+2021-08-10T09:03:05+00:00 CRITICAL Cannot redeclare woocommerce_mini_cart() (previously declared in /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php:2156) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 117
+
+2021-08-10T09:21:26+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-10T11:18:36+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 412
+
+2021-08-10T11:19:32+00:00 CRITICAL syntax error, unexpected end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 892
+
+2021-08-10T11:19:34+00:00 CRITICAL syntax error, unexpected end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 892
+
+2021-08-10T11:19:58+00:00 CRITICAL syntax error, unexpected end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 892
+
+2021-08-10T11:39:07+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 557
+
+2021-08-10T11:39:09+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 557
+
+2021-08-10T11:39:09+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 557
+
+2021-08-10T13:00:57+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T13:01:00+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T13:01:01+00:00 CRITICAL Cannot redeclare mycred_part_woo_ajax_handler() (previously declared in /home/buybulks/public_html/wp-content/plugins/mycred-woocommerce-plus/includes/partial-payment/mycred-partial-woo-checkout.php:318) in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/functions.php on line 4
+
+2021-08-10T13:20:59+00:00 CRITICAL Uncaught Error: Class 'myCredCheckoutMofication' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1103
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredCheckoutMofication('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1103
+
+2021-08-10T14:06:22+00:00 CRITICAL Uncaught Error: Class 'myCredEmailCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1148
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredEmailCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(raffleDrawStatsCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1148
+
+2021-08-10T14:41:35+00:00 CRITICAL Uncaught Error: Call to a member function format() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:152
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(344): myCredProfilePageModification->getACFDateToTimeStamp(false)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->showMyTicket('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/buybulks/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 152
+

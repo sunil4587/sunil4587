@@ -1,0 +1,273 @@
+2021-08-09T05:21:46+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(353): myCredCheckoutMofication->isPointBasedOrder('10089')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->showMyTicket('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_account_content('')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 /home/buybulks/public in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:23+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10089')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10130)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10130)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:38+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10089')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10131)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10131)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:43+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10089')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10131)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10131)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:50+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10040')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10041)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10041)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:55+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10040')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10042)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10042)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:22:59+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10040')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10043)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10043)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:23:04+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10040')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10044)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10044)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T05:23:24+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php:323
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php(199): myCredCheckoutMofication->isPointBasedOrder('10089')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('type', 10131)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'type', 10131)
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'type')
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-tab in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 323
+
+2021-08-09T06:15:25+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-09T06:15:26+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-09T06:15:26+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-09T08:14:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_discount() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:234
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-l in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 234
+
+2021-08-09T08:14:25+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_discount() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:234
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-l in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 234
+
+2021-08-09T08:20:04+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin.php(34): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-admin/edit.php(10): require_once('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-09T08:20:25+00:00 CRITICAL Uncaught Error: Cannot access protected property WC_Order_Item_Product::$data in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:235
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-li in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 235
+
+2021-08-09T08:20:29+00:00 CRITICAL Uncaught Error: Cannot access protected property WC_Order_Item_Product::$data in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:235
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-li in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 235
+
+2021-08-09T08:23:55+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-09T08:24:43+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-09T08:31:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_regular_price() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:236
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-po in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 236
+
+2021-08-09T08:31:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_regular_price() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:236
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-po in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 236
+
+2021-08-09T08:31:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_regular_price() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:236
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-po in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 236
+
+2021-08-09T08:32:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::get_regular_price() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php:236
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification->custom_tickets_column('ticket_price', 10194)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1343): do_action('manage_ticket_p...', 'ticket_price', 10194)
+#4 /home/buybulks/public_html/wp-admin/includes/class-wp-list-table.php(1452): WP_Posts_List_Table->column_default(Object(WP_Post), 'ticket_price')
+#5 /home/buybulks/public_html/wp-admin/includes/class-wp-posts-list-table.php(1377): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home/buybulks/public_html/wp-admin/includes/class-wp-po in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-my-profile-modification.php on line 236
+
+2021-08-09T09:01:40+00:00 CRITICAL Uncaught Error: Class 'myCredProfilePageModification' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1114
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredProfilePageModification('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1114
+
+2021-08-09T12:41:38+00:00 CRITICAL Uncaught Error: Class 'myCredCheckoutMofication' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1103
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredCheckoutMofication('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1103
+

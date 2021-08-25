@@ -1,0 +1,57 @@
+2021-08-16T04:36:32+00:00 CRITICAL Uncaught Error: Class 'raffleDrawStatsCustomization' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1143
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): raffleDrawStatsCustomization('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(templateOverride), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1143
+
+2021-08-16T06:02:09+00:00 CRITICAL Uncaught Error: Call to undefined method mycred_woo_reward_product::debug() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php:283
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php(234): mycred_woo_reward_product->multiplePointsBasedOnRank('991.00')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): mycred_woo_reward_product->woocommerce_review_order_before_order_total('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(27): do_action('woocommerce_bef...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/inc in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php on line 283
+
+2021-08-16T06:03:29+00:00 CRITICAL Uncaught Error: Call to undefined function prnit_r() in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php:283
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php(234): mycred_woo_reward_product->multiplePointsBasedOnRank('991.00')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): mycred_woo_reward_product->woocommerce_review_order_before_order_total('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/cart/cart.php(27): do_action('woocommerce_bef...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class- in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/override/mycred-reward-product.php on line 283
+
+2021-08-16T06:57:03+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T06:57:04+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T06:57:10+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T06:57:34+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T06:59:11+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T06:59:34+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:01:11+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:01:34+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:03:12+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:03:34+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:05:12+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+
+2021-08-16T07:05:34+00:00 CRITICAL Constant expression contains invalid operations in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 22
+

@@ -1,0 +1,1117 @@
+ /* Custom css for other designing */
+
+.section-hidden {
+    display: none;
+}
+
+.logged-in .section-hidden {
+    display: block;
+}
+body .woocommerce-checkout-review-order-table .ids_custom_cost th {
+    width: 220px;
+}
+.ids-custom-swal .swal-icon--info,
+.ids-custom-swal .swal-icon--info:after,
+.ids-custom-swal .swal-icon--info:before {
+    border-color: #fff;
+}
+.woocommerce-mini-cart__empty-message {
+    text-align: center;
+    margin-top: 10px;
+}
+body .woodmart-load-more:not(:hover),
+body .woodmart-load-more:hover{
+    background-color: #ff00ac !important;
+    color: #fff;
+    border-radius: 5px;
+    border:0px;
+}
+.ids-custom-swal .swal-button {
+    border: 0px;
+    background-color: #b600f6;
+    padding: 12px 24px;
+}
+.ids_custom_cost small a {
+    color: #b600f6;
+}
+.cart-table-section {
+    padding-bottom: 20px;
+}
+.ids-customcheckout-order-review {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.woocommerce-form-register input.form-control {
+    margin-left: 0px;
+}
+
+.ids-custom-swal .swal-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ids-custom-swal .swal-icon--success:after,
+.ids-custom-swal .swal-icon--success:before,
+.ids-custom-swal .swal-icon--success__hide-corners {
+    background: transparent;
+}
+
+.ids-custom-swal .swal-icon--success__ring {
+    border: 4px solid #fff;
+}
+
+.ids-custom-swal .swal-icon--info:after,
+.ids-custom-swal .swal-icon--info:before {
+    background-color: #fff;
+}
+
+.ids-custom-swal .swal-button:hover {
+    background-color: #b600f6;
+    color: #fff;
+}
+.custom-win-tic .elementor-element {
+    background: #48c1d6;
+}
+.create-acount-info {
+    color: #b600f6;
+    font-weight: bold;
+}
+.ids-custom-swal .swal-button--cancel {
+    background-color: #F3F3F3;
+    border: 0px;
+    padding: 12px 24px;
+}
+
+.ids-custom-swal .swal-button--cancel:hover {
+    background-color: #F3F3F3;
+    color: #555;
+}
+
+.ids-custom-swal .swal-footer {
+    text-align: center;
+}
+
+.ids-custom-swal .swal-icon--success__line {
+    background: #ffffff;
+}
+
+.swal-modal.ids-custom-swal {
+    background-image: url(https://buybulkshrooms.com/wp-content/uploads/2021/03/testimonial-bg.jpg);
+    border-radius: 0px;
+}
+
+.ids-custom-swal .swal-title {
+    font-size: 42px;
+    color: #fff;
+}
+
+.ids-custom-swal .swal-text {
+    color: #ffffffcc;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.mycred_my_account {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.loop.mycred_default {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3f3f3f;
+}
+
+body .mycred_tab_coloum.ranks .mycred-my-rank,
+body .mycred_my_account .mylevel {
+    line-height: 99px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3f3f3f;
+}
+
+body .mycred_my_account .mylevel {
+    font-size: 30px;
+}
+
+body span.level_alphabet {
+    font-size: 14px;
+}
+
+body .mycred_points_lable {
+    width: auto;
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+
+body .mycred_my_account .myranks img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 50px;
+    border: 0px;
+}
+
+.custom-price h1 {
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+    text-transform: uppercase;
+}
+
+.custom-price bdi {
+    font-size: 28px;
+    font-weight: 100;
+}
+.mycred-my-balance-wrapper div{
+    font-weight: 100;
+}
+
+.cart-widget-side a.elementor-button:hover {
+    color: #fff;
+}
+
+.custom-rank .mycred-my-rank {
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+}
+
+.custom-list2.green-c h4 {
+    background: #7af355;
+}
+
+.custom-list2.light-green-c h4 {
+    background: #9ff355;
+}
+
+.custom-list2.light-yellow-c h4 {
+    background: #f3f155;
+}
+
+.custom-list2.yellow-c h4 {
+    background: #f3d355;
+}
+
+.custom-list2.light-red-c h4 {
+    background: #f39855;
+}
+
+.custom-list2.red-c h4 {
+    background: #f35555;
+}
+
+.custom-list2 {
+    background: #7C7EFF;
+    border-radius: 150px;
+    border-top-left-radius: 126px;
+    border-top-right-radius: 126px;
+    border: 2px solid #000;
+}
+
+.custom-list2 ul {
+    padding: 0px 16px 68px 16px;
+}
+
+.custom-list2 h4 {
+    text-align: center;
+    font-weight: 100;
+    font-family: "wedges", Sans-serif;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    line-height: 100px;
+}
+
+.custom-height {
+    height: 150px;
+}
+.woodmart-hover-base.product-in-carousel .product-wrapper:hover {
+    border: 0px;
+}
+.ids-ticket-massage a {
+    FONT-WEIGHT: BOLD;
+    color: #fff;
+}
+.ids-ticket-massage a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.custom-list2 ul li {
+    color: #000;
+    text-align: center;
+    line-height: 26px;
+    font-family: "wedges", Sans-serif;
+    border-bottom: 4px solid #ff9c00;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.custom-list2 ul li:last-child {
+    border: 0px;
+}
+.footer-sidebar .footer-column-2 {
+    text-align: right;
+}
+
+.color-scheme-light .widget {
+    border: 0px;
+    margin-bottom: 0px;
+}
+
+.info-box-icon path {
+    fill: #b600f6;
+}
+
+ body .footer-column #menu-custom-menu-1 a {
+    color: rgb(255 255 255);
+    font-family: "wedges", Sans-serif;
+    font-size: 20px;
+} 
+
+body .wpcf7-submit {
+    background: #b600f6;
+    color: #fff;
+    border-radius: 5px;
+}
+
+body .wpcf7-submitt:hover {
+    color: #fff;
+}
+
+body .site-content {
+    margin-bottom: 0px;
+}
+
+
+/* .custom-row {
+    background: url(https://buybulkshrooms.com/wp-content/uploads/2021/07/ticket-t-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+
+.custom-row {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.custom-ticket {
+    max-width: 800px;
+    background-image: url(https://buybulkshrooms.com/wp-content/uploads/2021/07/ticket-t-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+
+}
+
+.col-t {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.custom-ticket .status {
+    text-align: center;
+}
+.custom-ticket .status a {
+    color: #fff;
+    background: #ff00ac;
+    max-width: 160px;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hide-popup {
+    height: 0px !important;
+}
+.notice-wrap{
+    position: fixed;
+    top: 130px;
+    right: 0;
+    z-index: 9999;
+}
+.notice-item-wrapper {
+    max-width: 250px;
+    background: #fff;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.notice-wrap p {
+    font-size: 18px;
+    text-align: center;
+    color:#333;
+    
+}
+.ids-custom-swal h3 {
+    color: #fff;
+}
+.order-first button[aria-disabled="false"],
+#mycred-range-action button,
+#mycred-range-action button:hover{
+    background: #ff00ac;
+    color: #fff !important;
+}
+.woodmart-switch-to-register,
+.woodmart-switch-to-register:hover{
+    background: #b600f6 !important;
+    color: #fff !important;
+}
+#mycred-range-action button{
+    border-radius: 4px;
+}
+.account-orders-table thead tr th:last-child {
+    width: 80px;
+    text-align: center;
+}
+.notice-wrap h1 {
+    text-align: center;
+    color: #B600F6;
+    font-size: 22px;
+    font-family: "wedges", Sans-serif !important;
+    font-weight: 100;
+}
+.notice-item-close {
+    text-align: right;
+    padding: 16px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    display: block !important;
+    color: transparent !important;
+    padding: 0px;
+    visibility: hidden;
+}
+.notice-item-close:hover {
+    color:#B600F6;
+}
+.notice-item-close:before {
+    right: -30px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    content: " ";
+    position: absolute;
+    top: 0%;
+    display: inline-block;
+    margin-top: -1px;
+    width: 12px;
+    margin: 20px;
+    height: 2px;
+    visibility: initial;
+    background-color: #000;
+    transition: background-color .2s ease-in-out,width .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    transition: background-color .2s ease-in-out,transform .2s ease-in-out,width .2s ease-in-out;
+    transition: background-color .2s ease-in-out,transform .2s ease-in-out,width .2s ease-in-out,-webkit-transform .2s ease-in-out;
+  }
+  .notice-item-close:after{
+    right: -30px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    content: " ";
+    position: absolute;
+    top: 0%;
+    display: inline-block;
+    margin-top: -1px;
+    width: 12px;
+    margin: 20px;
+    height: 2px;
+    visibility: initial;
+    background-color: #000;
+    transition: background-color .2s ease-in-out,width .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    transition: background-color .2s ease-in-out,transform .2s ease-in-out,width .2s ease-in-out;
+    transition: background-color .2s ease-in-out,transform .2s ease-in-out,width .2s ease-in-out,-webkit-transform .2s ease-in-out;
+  }
+  .notice-item-close:hover:before,
+  .notice-item-close:hover:after{
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+.copyrights-wrapper.copyrights-two-columns {
+    display: none;
+}
+body .elementor-menu-cart__product, 
+body .elementor-menu-cart__subtotal {
+    padding-bottom: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 20px;
+}
+.col-t h4,
+.col-t h1 {
+    font-size: 38px;
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 100;
+}
+.ids-ticket-massage {
+    background: #B600F6;
+    color: #fff;
+    padding: 16px 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.col-t h4 {
+    background: linear-gradient(to right, #fff64b 0%, #fa2eff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.col-t h1 {
+    font-size: 36px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffffff;
+    color: #ff00ac;
+    max-width: 375px;
+    margin-top: 30px;
+}
+.col-t h2{
+    margin-top: 30px;
+    color:#fff;
+    text-align: center;
+}
+
+.custom-ticket span {
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #fff64b 0%, #fa2eff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "wedges", Sans-serif;
+    font-weight: 100;
+}
+
+.col-t p {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+    font-weight: 100;
+}
+
+body.woodmart-archive-shop .site-content {
+    margin-bottom: 40px;
+}
+
+.variations li:nth-child(2),
+.variations tr:nth-child(2) {
+    display: none;
+}
+
+.page-title.color-scheme-light .entry-title {
+    font-family: "wedges", Sans-serif !important;
+    font-weight: 100;
+}
+
+.text-editor .elementor-widget:not(:last-child) {
+    margin-bottom: 6px;
+}
+
+.whb-color-dark .navigation-style-default .item-level-0.custom-menu>a {
+    color: #B600F6;
+    font-family: "wedges", Sans-serif !important;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.whb-color-dark .navigation-style-default .item-level-0.custom-menu.custom-menu-b>a {
+    background: #ff00ac;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.custom-paddinig-0 .elementor-element-populated {
+    padding-bottom: 0px !important;
+}
+
+.custom-height .elementor-col-50.left-img {
+    position: absolute;
+    bottom: -161px;
+    left: 43px;
+    height: 211px;
+}
+
+.custom-height .elementor-col-50.right-img {
+    position: absolute;
+    bottom: 90px;
+    right: 0px;
+    height: 236px;
+}
+
+.box-slider .owl-stage {
+    display: table;
+    width: 100%;
+}
+
+
+/* .page-id-3588 header,
+  .page-id-3443 header{
+      display: none;
+  } */
+
+.box-slider .info-box-title {
+    width: 100%;
+    font-family: "wedges", Sans-serif !important;
+}
+
+.custom-img img {
+    width: auto;
+    max-width: initial;
+}
+
+.owl-nav>div[class*=prev]:after,
+.owl-nav>div[class*=next]:after {
+    color: #9ef900;
+    font-weight: bold;
+}
+
+.box-slider .box-style-border.box-icon-align-top .info-box-content:hover {
+    background: #9ef900;
+}
+
+.box-slider .owl-item {
+    display: table-cell;
+    padding: 16px;
+    height: 200px;
+}
+
+.box-slider .info-box-wrapper {
+    height: 100%;
+}
+
+.box-slider .woodmart-info-box {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    height: 100%;
+}
+
+.box-slider .box-style-border.box-icon-align-top .info-box-content {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 1px 7px 0px rgb(32 33 36 / 28%);
+    border-color: rgba(223, 225, 229, 0);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.ids-testimonial .testimonial .testimonial-avatar img {
+    border: 2px solid #b900f6;
+    border-radius: 50%;
+}
+
+.ids-testimonial .testimonial-avatar:before {
+    content: "ddd";
+    background: url(/wp-content/uploads/2021/03/quote.png);
+    background-size: 100%;
+    position: absolute;
+    color: transparent;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.custom-header i.fas.fa-search {
+    background-color: transparent;
+    color: #b600f6;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.elementor-shape-bottom,
+.elementor-shape-top {
+    bottom: -1px;
+    animation: wave 22s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    width: 210%;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: -1600px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.custom-list span.list-content,
+.custom-list-r span.list-content {
+    font-family: "wedges", Sans-serif;
+    color: #4e0f65;
+    font-size: 32px;
+}
+
+.custom-list .woodmart-list .list-icon,
+.custom-list-r .woodmart-list .list-icon {
+    transform: scale(1.2);
+    animation-name: elementor-animation-pulse-shrink;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.custom-list li:hover .list-icon,
+.custom-list-r li:hover .list-icon {
+    transform: scale(1.2);
+    animation-name: elementor-animation-pulse-shrink;
+    animation-duration: .9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.custom-list-r span.list-content {
+    color: #fff;
+}
+
+.ids-stroke h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #4e0f65;
+}
+
+.ids-stroke-gold h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #7b710e;
+}
+
+.ids-stroke-red h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ff00ac;
+}
+
+.ids-stroke-green h1 {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #B600F6;
+}
+
+.ids-testimonial .testimon-style-boxed .testimonial-inner {
+    background: #45b4c7;
+    color: #fff;
+    border-radius: 50px;
+    font-family: "Poppins", Sans-serif;
+}
+
+.ids-testimonial .testimonial .testimonial-content footer span {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+
+.ids-testimonial .testimonial .testimonial-content footer {
+    color: #fff;
+}
+
+.ids-animation {
+    animation: animation 100s linear infinite;
+    animation-name: backgroundloop;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+
+.ids-animation .elementor-motion-effects-layer {
+    animation-name: backgroundloop;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    overflow: hidden;
+    background-repeat: repeat-y;
+    background-position: 0 0;
+}
+
+@-webkit-keyframes zoomeffect {
+    0% {
+        background-position: center;
+        transform: scale(1, 1);
+    }
+    50% {
+        background-position: center;
+        transform: scale(2, 2);
+    }
+    100% {
+        background-position: center;
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes zoomeffect {
+    0% {
+        background-position: center;
+        transform: scale(1, 1);
+    }
+    50% {
+        background-position: center;
+        transform: scale(2, 2);
+    }
+    100% {
+        background-position: center;
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes backgroundloop {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -500px;
+    }
+}
+
+.ids-testimonial2 .elementor-testimonial__footer {
+    width: 50%;
+}
+
+.elementor-3588 .ids-testimonial2 .elementor-element.elementor-element-4e44a79 .elementor-testimonial__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4em;
+}
+
+.ids-testimonial2 h1 {
+    color: #FFFFFF;
+    font-family: "wedges", Sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.ids-testimonial2 .elementor-testimonial__text,
+.ids-testimonial2 .elementor-testimonial__cite {
+    font-family: "Poppins", Sans-serif;
+    color: #fff;
+    align-content: center;
+    text-align: left;
+}
+
+.ids-testimonial2 span.elementor-testimonial__title {
+    display: none;
+}
+
+.ids-testimonial2 .elementor-testimonial {
+    align-items: center;
+}
+
+.ids-testimonial2 h1:after {
+    content: "dsd";
+    background: url(/wp-content/uploads/2021/03/star-icon.png);
+    background-size: 73%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    animation: rotation 8s infinite linear;
+    display: inline-block;
+}
+
+.ids-custom-star span:after {
+    background: url(/wp-content/uploads/2021/03/star.png);
+    content: "dsd";
+    background-size: 89%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    animation: rotation 8s infinite linear;
+    display: inline-block;
+}
+
+.ids-custom-star span:before {
+    background: url(/wp-content/uploads/2021/03/star.png);
+    content: "dsd";
+    background-size: 89%;
+    color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    animation: rotation 8s infinite linear;
+    display: inline-block;
+}
+
+@keyframes sheen {
+    100% {
+        transform: rotateZ(60deg) translate(1em, -9em);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.wd-tools-element .wd-tools-icon {
+    color: #b600f6;
+}
+
+.custom-animation-t .elementor-background-overlay {
+    animation: sparkle 60s linear infinite;
+}
+
+.ids-tablepress.tablepress tfoot th,
+.ids-tablepress.tablepress thead th {
+    text-align: center;
+    background-color: #B600F6;
+    color: #fff;
+    font-family: "wedges", Sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.ids-tablepress td span {
+    text-align: right;
+    float: right;
+}
+
+.ids-tablepress.tablepress tbody td {
+    font-size: 18px;
+    color: rgba(0, 0, 0, .9);
+}
+
+.double-point .custom-row {
+    justify-content: space-around;
+}
+
+
+/* #elementor-popup-modal-9048 {
+    cursor: default;
+} */
+
+
+/*product page css*/
+
+.product_title.entry-title,
+.tabs-layout-tabs .tabs li a,
+.widget_product_categories .widget-title,
+.widget-title,
+.woocommerce-billing-fields h3,
+#order_review_heading {
+    font-family: "wedges", Sans-serif !important;
+    color: #B600F6 !important;
+    font-weight: 100 !important;
+}
+
+
+/* button.button,
+  input#submit{
+      background: #ff00ac;
+      font-family: "wedges", Sans-serif !important;
+      font-weight:100;
+      color: #fff !important;
+  } */
+
+body .woocommerce-info,
+body .thc,
+body .woocommerce-error,
+body .elementor-button {
+    background: #B600F6;
+}
+
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--my-coupons a:before,
+.woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link--my-rank a:before {
+    display: none;
+}
+
+.ticket-active,
+.ticket-enroll,
+.ticket-expired,
+.ticket-winning, 
+.ticket-redeemed{
+    background-color: #b600f6 !important;
+    color: #fff;
+    border: 10px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    border-radius:5px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    width: 85px;
+    
+}
+a.ticket-expired {
+    color: #333 !important;
+    opacity: 0.6;
+}
+
+.ticket-enroll{
+    background-color:#ff00ac !important;
+}
+.ticket-expired {
+    background-color:#dedddd !important;
+}
+.ticket-winning {
+    background-color:#80c703 !important;
+}
+.ticket-redeemed{
+    background-color:#07b5a1  !important;
+}
+#EnrollForRaffle{
+    cursor: pointer;
+  }
+a#EnrollForRaffle .elementor-button-text:before,
+.ticket-active:before,
+.ticket-enroll:before,
+.ticket-winning:before,
+.ticket-expired:before,
+.loading#bb-not-enough-balance-for-reorder:before,
+.loading#custom_place_order:before,
+.loading.ticket-redeemed:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
+    transition: opacity .2s ease;
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(255,255,255,.4);
+    border-left-color: #FFF;
+    border-radius: 50%;
+    vertical-align: middle;
+    opacity: 0;
+    -webkit-animation: wd-rotate 450ms infinite linear;
+    animation: wd-rotate 450ms infinite linear;
+}
+
+.ticket-active.loading:before, 
+.ticket-enroll.loading:before,
+.ticket-winning.loading:before,
+.ticket-expired.loading:before,
+a.loading#EnrollForRaffle .elementor-button-text:before,
+.loading#bb-not-enough-balance-for-reorder:before,
+.loading#custom_place_order:before,
+.loading.ticket-redeemed:before{
+    opacity: 1;
+ }
+a.ticket-active.loading,
+a.ticket-enroll.loading,
+a.ticket-winning.loading,
+a.ticket-expired.loading,
+a.loading#EnrollForRaffle .elementor-button-text,
+.loading#bb-not-enough-balance-for-reorder,
+.loading#custom_place_order,
+.loading.ticket-redeemed{
+    color: transparent !important;
+    text-shadow: none;
+}
+.ids-custom-swal .swal-content .swal-content__div a {
+    color: #45B4C7;
+    font-weight: bold;
+}
+.ids-custom-swal .swal-content .swal-content__div a:hover {
+    text-decoration: underline;
+}
+.ids-custom-swal .swal-content .swal-content__div {
+    color: #fff;
+}
+.logged-in .shop_table tr.total:nth-last-child(2),
+.cart-totals-inner tr:last-child,
+.custom-product-slider .custom-wrapping,
+.woocommerce-checkout-review-order-table tfoot tr:last-child{
+    display: none;
+}
+.logged-in .cart-totals-inner tr:last-child {
+    display: contents;
+}
+.logged-in .woocommerce-checkout-review-order-table tfoot tr:last-child{
+    display: contents;
+}
+.ids_custom_cost small:hover i{
+    
+    -webkit-transform: translateX(4px);
+	 -moz-transform: translateX(4px);
+	 -ms-transform: translateX(4px);
+	 -o-transform: translateX(4px);
+	 transform: translateX(4px);
+     
+}
+.ids_custom_cost small i{
+    display: inline-block;
+    padding-left:2px;
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+}
+
+@media screen and (max-width:1048px) {
+    body .mycred_my_account {
+        display: initial;
+    }
+}
+
+@media screen and (max-width:980px) {
+    body .ids-3col .elementor-element .elementor-heading-title {
+        font-size: 20px !important;
+    }
+    .custom-list span.list-content,
+    .custom-list-r span.list-content {
+        font-size: 20px;
+    }
+    body .custom-ticket {
+        background-size: cover;
+    }
+}
+@media screen and (max-width:767px) {
+    .ids-testimonial2 .elementor-testimonial__text,
+    .ids-testimonial2 .elementor-testimonial__cite {
+        font-size: 10px;
+    }
+    .ids-testimonial2 h1 {
+        font-size: 18px;
+    }
+    .div-center .elementor-text-editor {
+        text-align: center;
+    }
+    aside.footer-sidebar,
+    .footer-sidebar .footer-column-2 {
+        text-align: center;
+    }
+    .mycred_coupons_badge_rank_container .shop_table_responsive td:before{
+        content: attr(data-name);
+    }
+}
+@media screen and (max-width:575px) {
+    body .mycred_my_account,
+    body .mycred_tab_coloum {
+        width: 96% !important;
+    }
+    .col-t h4,
+    .col-t h1 {
+        font-size: 26px;
+    }
+    .col-t h1 {
+        font-size: 28px;
+    }
+    .custom-wrapping{
+        bottom: 18px;
+    }
+    .woo-variation-swatches.wvs-archive-align-center .wvs-archive-variation-wrapper .variable-items-wrapper {
+        display: none;
+    }
+}

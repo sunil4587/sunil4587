@@ -1,0 +1,314 @@
+2021-08-23T04:29:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:31:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:31:20+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:31:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:33:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:33:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:34:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:35:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:36:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:37:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:37:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:37:39+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:37:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 2 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 3 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:49
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 49
+
+2021-08-23T04:38:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:54
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11036)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11036)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->load in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 54
+
+2021-08-23T04:50:30+00:00 CRITICAL Uncaught Error: Class 'customizingDokan' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1174
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1174
+
+2021-08-23T05:34:09+00:00 CRITICAL Uncaught Error: Class 'customizingDokan' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1170
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1170
+
+2021-08-23T06:24:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:86
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/tmpl-add-product-popup.php(150): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(501): dokan_get_template_part('products/tmpl-a...')
+#6 /home/buy in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 86
+
+2021-08-23T06:24:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:86
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product.php(259): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-pro/includes/Products.php(70): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/cla in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 86
+
+2021-08-23T06:24:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:86
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product.php(259): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-pro/includes/Products.php(70): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/cla in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 86
+
+2021-08-23T06:26:02+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:86
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product.php(259): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-pro/includes/Products.php(70): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/cla in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 86
+
+2021-08-23T06:26:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderACFFields(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:86
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product.php(259): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-pro/includes/Products.php(70): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/cla in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 86
+
+2021-08-23T06:29:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::renderAcf(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:55
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderAcf('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product.php(259): do_action('dokan_new_produ...')
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-pro/includes/Products.php(70): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.p in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 55
+
+2021-08-23T07:07:04+00:00 CRITICAL Uncaught Error: Class 'customizingDokan' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1170
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/xmlrpc.php(31): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1170
+
+2021-08-23T07:24:54+00:00 CRITICAL Uncaught Error: Class 'customizingDokan' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1170
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1170
+
+2021-08-23T11:03:27+00:00 CRITICAL Uncaught Error: Class 'TaxonomyDropdown' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:124
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->renderACFFields(Object(WP_Post), 11043)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/templates/products/new-product-single.php(427): do_action('dokan_product_e...', Object(WP_Post), 11043)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/functions.php(964): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(192): dokan_get_template_part('products/new-pr...')
+#6 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->load_produc in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 124
+
+2021-08-23T11:21:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::updateACFField(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->updateACFField(11043)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/wc-functions.php(400): do_action('dokan_process_p...', 11043)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(471): dokan_process_product_meta(11043, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->handle_product_update('')
+#6 /home/buyb in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 69
+
+2021-08-23T11:21:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::updateACFField(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->updateACFField(11043)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/wc-functions.php(400): do_action('dokan_process_p...', 11043)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(471): dokan_process_product_meta(11043, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->handle_product_update('')
+#6 /home/buyb in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 69
+
+2021-08-23T11:23:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::updateACFField(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->updateACFField(11043)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/wc-functions.php(400): do_action('dokan_process_p...', 11043)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(471): dokan_process_product_meta(11043, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->handle_product_update('')
+#6 /home/buyb in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 69
+
+2021-08-23T11:23:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function customizingDokan::updateACFField(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 2 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): customizingDokan->updateACFField(11043)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/wc-functions.php(400): do_action('dokan_process_p...', 11043)
+#4 /home/buybulks/public_html/wp-content/plugins/dokan-lite/includes/Dashboard/Templates/Products.php(471): dokan_process_product_meta(11043, Array)
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): WeDevs\Dokan\Dashboard\Templates\Products->handle_product_update('')
+#6 /home/buyb in /home/buybulks/public_html/wp-content/plugins/custom-customization/customize-dokan.php on line 69
+
+2021-08-23T12:42:44+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:43:44+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:43:47+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:10+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:24+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:37+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:37+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:39+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:40+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:45+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:44:46+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:45:03+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:45:15+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+
+2021-08-23T12:45:18+00:00 CRITICAL syntax error, unexpected '}' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 127
+

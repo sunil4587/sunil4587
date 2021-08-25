@@ -1,0 +1,265 @@
+2021-08-13T09:53:27+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T09:58:28+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:04:37+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:34:55+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:37:25+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:37:30+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:37:32+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:38:31+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:38:49+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:38:51+00:00 CRITICAL Uncaught Error: Call to undefined function bbCustomMessages() in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php:6
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php(1156): require_once()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bb_CustomMessages('')
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#3 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#5 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#8 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#9 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/bb-custom-messages.php on line 6
+
+2021-08-13T10:45:38+00:00 CRITICAL require_once(): Failed opening required '/home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/raffle-winning-stats.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1142
+
+2021-08-13T10:45:39+00:00 CRITICAL require_once(): Failed opening required '/home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/raffle-winning-stats.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1142
+
+2021-08-13T10:45:41+00:00 CRITICAL require_once(): Failed opening required '/home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/raffle-winning-stats.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1142
+
+2021-08-13T10:45:43+00:00 CRITICAL require_once(): Failed opening required '/home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/raffle-winning-stats.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1142
+
+2021-08-13T10:47:48+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessages' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessages('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T10:47:49+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessages' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessages('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T10:47:51+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessages' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessages('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T10:48:00+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessages' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessages('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T12:53:26+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessage' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessage('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T13:20:09+00:00 CRITICAL Uncaught Error: Class 'myCredCheckoutMofication' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1105
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredCheckoutMofication('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1105
+
+2021-08-13T13:22:08+00:00 CRITICAL syntax error, unexpected end of file, expecting '(' in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/my-cred-checkout-modification.php on line 453
+
+2021-08-13T13:23:11+00:00 CRITICAL Uncaught Error: Class 'myCredCheckoutMofication' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1105
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): myCredCheckoutMofication('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1105
+
+2021-08-13T13:37:43+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessage' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessage('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+
+2021-08-13T13:43:57+00:00 CRITICAL Uncaught Error: Class 'bbCustomMessage' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1157
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): bbCustomMessage('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredEmailCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1157
+

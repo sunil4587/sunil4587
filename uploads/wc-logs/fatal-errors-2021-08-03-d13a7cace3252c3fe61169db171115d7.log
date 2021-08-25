@@ -1,0 +1,899 @@
+2021-08-03T07:38:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCuponOnmyAcountOrderPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCuponOnmyAcountOrderPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/checkout/review-order.php(107): do_action('woocommerce_rev...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-tem in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 69
+
+2021-08-03T07:38:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCuponOnmyAcountOrderPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:69
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCuponOnmyAcountOrderPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/checkout/review-order.php(107): do_action('woocommerce_rev...')
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-tem in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 69
+
+2021-08-03T07:38:49+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T07:39:13+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T08:39:48+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:51+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:52+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:52+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:39:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:20+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:21+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:25+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T08:40:26+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php:983
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(250): woodmart_cart_count()
+#1 /home/buybulks/public_html/wp-content/themes/woodmart/inc/modules/sticky-toolbar.php(135): woodmart_sticky_toolbar_cart_template()
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woodmart_sticky_toolbar_template('')
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-includes/general-template.php(3031): do_action('wp_footer')
+#6 /home/buybulks/public_html/wp-includes/blocks/legacy-widget.php(123): wp_footer()
+#7 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#8  in /home/buybulks/public_html/wp-content/themes/woodmart/inc/integrations/woocommerce/template-tags.php on line 983
+
+2021-08-03T09:02:02+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php:39
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php on line 39
+
+2021-08-03T09:03:49+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php:39
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php on line 39
+
+2021-08-03T09:03:52+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php:39
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php on line 39
+
+2021-08-03T09:03:54+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php:39
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php on line 39
+
+2021-08-03T09:03:57+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php:39
+Stack trace:
+#0 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#2 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#3 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/templates/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#6 /home/buybulks/public_html/wp-content/plugins/woocommerce/ in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/order/order-again.php on line 39
+
+2021-08-03T09:34:36+00:00 CRITICAL Uncaught Error: Class 'templateOverride' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1124
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredSettingCustomization), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1124
+
+2021-08-03T09:36:16+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:36:22+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:36:26+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:36:59+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:14+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:17+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:34+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:37+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:55+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T09:37:58+00:00 CRITICAL Uncaught Error: Call to a member function get_status() on bool in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php:138
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): templateOverride->loadCustomWCTemplate('/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#1 /home/buybulks/public_html/wp-includes/plugin.php(189): WP_Hook->apply_filters('/home/buybulks/...', Array)
+#2 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(313): apply_filters('wc_get_template', '/home/buybulks/...', 'order/order-aga...', Array, '', '')
+#3 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2644): wc_get_template('order/order-aga...', Array)
+#4 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): woocommerce_order_again_button(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#5 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): W in /home/buybulks/public_html/wp-content/plugins/custom-customization/woocommerce/template/override-function.php on line 138
+
+2021-08-03T10:10:33+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-cron.php(44): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T10:28:14+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-blog-header.php(13): require_once('/home/buybulks/...')
+#7 /home/buybulks/public_html/index.php(17): require('/home/buybulks/...')
+#8 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T10:37:25+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T10:40:50+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T10:43:51+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T10:53:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showPointBasedTotal(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 4 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:84
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showPointBasedTotal(9353)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.ph in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 84
+
+2021-08-03T11:02:25+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T11:20:13+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
+2021-08-03T11:34:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showPointBasedTotal(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 4 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:85
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showPointBasedTotal(9353)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.ph in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 85
+
+2021-08-03T11:34:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showPointBasedTotal(), 1 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 303 and exactly 4 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:85
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout->showPointBasedTotal(9353)
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.ph in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 85
+
+2021-08-03T11:36:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:36:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:37:06+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:37:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:37:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:38:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:39:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function handPointBasedItemCheckout::showCouponMesssageOnthankyouPage(), 0 passed in /home/buybulks/public_html/wp-includes/class-wp-hook.php on line 301 and exactly 1 expected in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php:68
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(301): handPointBasedItemCheckout->showCouponMesssageOnthankyouPage()
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-content/themes/woodmart/woocommerce/checkout/thankyou.php(96): do_action('woocommerce_tha...', 9353)
+#4 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-s in /home/buybulks/public_html/wp-content/plugins/custom-customization/mycred/handle-point-based-item-checkout.php on line 68
+
+2021-08-03T11:55:04+00:00 CRITICAL Uncaught Error: Class 'handPointBasedItemCheckout' not found in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php:1132
+Stack trace:
+#0 /home/buybulks/public_html/wp-includes/class-wp-hook.php(303): handPointBasedItemCheckout('')
+#1 /home/buybulks/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(Object(myCredProfilePageModification), Array)
+#2 /home/buybulks/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/buybulks/public_html/wp-settings.php(441): do_action('plugins_loaded')
+#4 /home/buybulks/public_html/wp-config.php(90): require_once('/home/buybulks/...')
+#5 /home/buybulks/public_html/wp-load.php(50): require_once('/home/buybulks/...')
+#6 /home/buybulks/public_html/wp-admin/admin-ajax.php(22): require_once('/home/buybulks/...')
+#7 {main}
+  thrown in /home/buybulks/public_html/wp-content/plugins/custom-customization/functions.php on line 1132
+
