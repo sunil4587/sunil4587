@@ -1,4 +1,4 @@
-<?php
+  <?php
 
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -16,6 +16,7 @@ class bbCustomVariables{
   private $shopPageID = 10;
   private $rewardPageID = 3588;
   private $contactPageID = 651;
+  private $shopPage ='';
 
 
   private $pointsCurrency = 'Points';
@@ -25,6 +26,13 @@ class bbCustomVariables{
   #Number of coupons user can use while checkout to get discount for normal products. 
   private $maxCouponCount = 3 ;
 
+  public function __construct() {
+    $this->shopPage = get_permalink( woocommerce_get_page_id( 'shop' ) );
+  }
+
+  public function shopPagelink(){
+    return $this->shopPage;
+  }
  public function rewardPageID(){
    return $this->rewardPageID;
  }
