@@ -1,7 +1,6 @@
 <?php
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
-
 class mycred_woo_reward_product {
 		
     public function __construct() {
@@ -19,8 +18,72 @@ class mycred_woo_reward_product {
         
         add_action( 'woocommerce_before_add_to_cart_quantity',  array( $this ,'display_dropdown_variation_add_cart' ));
 
+        #checking page id after redirect
+        add_action ('template_redirect', [$this, 'AddinghookdoubleXPreventAlert']);
+
+        #
+        #Showing alert when Double XP event is on.
+        add_action('wp_footer', [$this ,'doubleXPeventAlert'],10);
+
+        #
+        #To hide double Xp notification when user clicked on hide once
+        // add_action( 'wp_ajax__ids_hidingDoubleXPalert', [$this, 'hidingDoubleXPNotification'] );
+        // add_action( 'wp_ajax_nopriv__ids_hidingDoubleXPalert', [$this, 'hidingDoubleXPNotification'] );
+
     }
 
+    public function hidingDoubleXPNotification(){
+      wp_send_json([
+        'status' => true,
+        'message' => "hi ajax is working",
+      ]);
+    }
+
+
+    public function AddinghookdoubleXPreventAlert(){
+      if(is_cart() || is_checkout()){
+       return false;
+      }
+      return true;
+    } 
+  
+    public function doubleXPeventAlert(){
+      if ($this->AddinghookdoubleXPreventAlert() == false){
+        return;
+      }
+      if(empty(woodmart_get_opt( 'weekend_double_xp' )) ){
+       return;
+      }
+      $url = bbCustomVariables()->shopPagelink();
+      $confirmationMessage = bbCustomMessage()->getMessage( "doubleXpEvent", [
+        'SHOPPAGE_LINK' => $url
+      ]); 
+      ob_start();?>
+      <div class="elementor-section-wrap">
+        <section class="wd-negative-gap elementor-section elementor-top-section elementor-element elementor-element-a14fa9c elementor-section-boxed elementor-section-height-default elementor-section-height-default wd-section-disabled" data-id="a14fa9c" data-element_type="section">
+          <div class="elementor-container elementor-column-gap-default">
+              <div class="elementor-row">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e746ff9" data-id="e746ff9" data-element_type="column">
+                    <div class="elementor-column-wrap elementor-element-populated">
+                      <div class="elementor-widget-wrap">
+                          <div class="elementor-element elementor-element-5e300e3 color-scheme-inherit text-left elementor-widget elementor-widget-text-editor" data-id="5e300e3" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-text-editor elementor-clearfix">
+                                  <div class="woocommerce-info ids-custom-doublxp-notice" id="ids-custom-doublxp-notice"> <?php  echo $confirmationMessage; ?>
+						<span class="elementor-button-content-wrapper"></div>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+        </section>
+      </div>
+      <?php echo ob_get_clean();
+    }
+  
     public function display_dropdown_variation_add_cart() {
 
     global $product;
