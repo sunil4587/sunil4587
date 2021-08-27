@@ -671,10 +671,17 @@ class myCredCheckoutMofication{
       return $status;
     }
 
-    if( count($cartCoupons) >= $maxCouponCount){
-      wc_print_notice( __( "Maximum {$maxCouponCount} coupon code allowed", 'woocommerce' ), 'error' );
-      return false;
+
+    $isMyCredCoupon = get_post_meta($activeCouponId, '__ids_custom_one_time_coupon', true);
+    if( !empty($isMyCredCoupon)){
+      return $status;
     }
+
+
+    // if( count($cartCoupons) >= $maxCouponCount){
+    //   wc_print_notice( __( "Maximum {$maxCouponCount} coupon code allowed", 'woocommerce' ), 'error' );
+    //   return false;
+    // }    
 
     $rankBasedArray = $this->getCouponCodeArrayBasedOnRank();
 
@@ -688,18 +695,18 @@ class myCredCheckoutMofication{
       $rankBasedObjMeta = get_post_meta( $couponObj->get_id(), 'rank_based_coupon', true) ;
       $icCouponObjRankBased = !empty($rankBasedObjMeta) && $rankBasedObjMeta != '- Select -';      
       if( $icCouponObjRankBased && $isRankBasedCoupon ){
-        wc_print_notice( __( "Maximum one rank based coupon code is allowed.", 'woocommerce' ), 'error' );      
+        // wc_print_notice( __( "Maximum one rank based coupon code is allowed.", 'woocommerce' ), 'error' );      
         return false; 
       }
 
       $icCouponObjPointBased = !empty(get_post_meta( $couponObj->get_id(), '_itemMetaHash', true)); 
       if( $icCouponObjPointBased && $isPointBasedCoupon ){
-        wc_print_notice( __( "Maximum one paid coupon code allowed.", 'woocommerce' ), 'error' );      
+        // wc_print_notice( __( "Maximum one paid coupon code allowed.", 'woocommerce' ), 'error' );      
         return false; 
       }
 
       if( !$icCouponObjRankBased && !$icCouponObjPointBased && !$isPointBasedCoupon && !$icCouponObjRankBased){
-        wc_print_notice( __( "Maximum one simple coupon code allowed.", 'woocommerce' ), 'error' ); 
+        // wc_print_notice( __( "Maximum one simple coupon code allowed.", 'woocommerce' ), 'error' ); 
         return false; 
       }
  
