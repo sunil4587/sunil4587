@@ -30,34 +30,37 @@ class bbCustomMessage{
       'ticketRedeemed' => 'You have already <strong>redeemed</strong> your reward for <b>{{TITLE}}</b> with ticket code - <b>{{CODE}}</b>',
 
 
-      //
+      #Showing message on thankyou on sucsessfully purchasing point based products.
       'pointThankYouConfirmation' => 'Your purchased item\'s codes are sent to your email or you can review your items on <a href="{{ACCOUNT_LINK}}">My account</a> page or <strong>below</strong>.',
 
+      #Showing message on thankyou when user get a free raffle ticket on purchasing normal products.
       'ticketThankYouConfirmation' => 'Free raflle ticket will be given to you once order is completed.<br> It will appear in the confirmation email or you can check it on 
        <a href="{{ACCOUNT_LINK}}my-tickets">My Tickets</a> page.',
 
-      //  #Shwoing message, when adding normal products based when cart have point based products
+      #Shwoing comfirmation message, on adding normal products to cart ,if cart have point based products.
        'errorMessage' => [
         "Normal product were removed from the cart, because you have add a point specific product.",
         "Point specific product were removed from the cart, because you have add a normal product.",          
       ],
 
-       #Shwoing message, when adding point based when cart have normal products
+       #Shwoing comfirmation message, on adding point based products to cart ,if cart have normal products
       'confirmationMessage' => [
         'Adding a point based product will remove all the existing product in the cart, are you sure you want to proceed?',
         'Adding a normal product will remove all the existing point based product in the cart, are you sure you want to proceed?',
-      ]
+      ],
+
     ],
     'nonLoggedIn' => [
       'loginMessageToAddPintBasedItem' => '<a href="{{LOGIN_LINK}}">Login </a> to your account to purchase point based products.',
       'loginToredeemTicket' => '<a href="{{LOGIN_LINK}}"> Login </a>to your account to reedem ticket',
-
-    ]
+      'doubleXpEvent' => '<strong>Double XP</strong>Event is on. Get double points on each purchase.<a id ="DoubleXpEvent" href="{{SHOPPAGE_LINK}}" >Purchase now </a>'
+    ],
   ];
 
   public function getBasicMessage($key){
     $loggedInMessage = $this->message['loggedIn'];
     $nonLoggedInMessage = $this->message['nonLoggedIn'];
+    // $bbglobalMessage = $this->message['bbGlobalmessage'];
 
     if( !isset($loggedInMessage[$key]) && !isset($nonLoggedInMessage[$key])  ){
       return false;
@@ -69,7 +72,7 @@ class bbCustomMessage{
     }
 
     # Logged
-    $user = wp_get_current_user();
+    $user = is_user_logged_in();
     if(empty($user)){
       return isset($nonLoggedInMessage[$key]) ? $nonLoggedInMessage[$key] : false;
     }
@@ -93,13 +96,6 @@ class bbCustomMessage{
 
     #showing for getting ticket on thankyou pgae  #woocommerce_order_details_after_order_table
     add_action( 'woocommerce_before_thankyou', [$this, 'showCouponMesssageOnthankyouPage'], 10, 4); 
-
-    #checking page id after redirect
-    add_action ('template_redirect', [$this, 'AddinghookdoubleXPreventAlert']);
-
-    #
-    #Adding alert when Double XP event is on.
-    add_action('wp_footer', [$this ,'doubleXPeventAlert'],10);
 
   }
 
@@ -140,46 +136,6 @@ class bbCustomMessage{
     } 
     echo ob_get_clean();
   }
-  
-  public function AddinghookdoubleXPreventAlert(){
-    if(is_cart() || is_checkout()){
-     return false;
-    }
-    return true;
-  } 
-
-  public function doubleXPeventAlert(){
-    if ($this->AddinghookdoubleXPreventAlert() == false){
-      return;
-    }
-    if(empty(woodmart_get_opt( 'weekend_double_xp' )) ){
-     return;
-    }
-    ob_start();?>
-    <div class="elementor-section-wrap">
-      <section class="wd-negative-gap elementor-section elementor-top-section elementor-element elementor-element-a14fa9c elementor-section-boxed elementor-section-height-default elementor-section-height-default wd-section-disabled" data-id="a14fa9c" data-element_type="section">
-        <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-row">
-              <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e746ff9" data-id="e746ff9" data-element_type="column">
-                  <div class="elementor-column-wrap elementor-element-populated">
-                    <div class="elementor-widget-wrap">
-                        <div class="elementor-element elementor-element-5e300e3 color-scheme-inherit text-left elementor-widget elementor-widget-text-editor" data-id="5e300e3" data-element_type="widget" data-widget_type="text-editor.default">
-                          <div class="elementor-widget-container">
-                              <div class="elementor-text-editor elementor-clearfix">
-                                <div class="woocommerce-info ids-custom-doublxp-notice"><strong>Double XP</strong>Event is on. Get double points on each purchase.<a href="<?php echo get_permalink( woocommerce_get_page_id( 'shop' ) ) ?>">Purchase now </a></div>
-                              </div>
-                          </div>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-      </section>
-    </div>
-  <?php echo ob_get_clean();
-  }
-
 
   /**
    *  Function Name : error_reporting
